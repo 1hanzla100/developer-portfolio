@@ -3,9 +3,11 @@
 
 <p align="center">
   <kbd>
-    <img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
+    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
   </kbd>
 </p>
+
+### To view a live example, **[click here](https://developer-portfolio.1hanzla100.vercel.app/)**.
 
 Just Edit `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
@@ -33,7 +35,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Projects\
 ✔️ Github Profile
 
-To view a live example, **[click here]()**.
+
 
 
 ## Getting Started

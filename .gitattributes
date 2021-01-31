@@ -1,1 +1,2 @@
 src/assets/* linguist-vendored
+*.js linguist-vendored=false

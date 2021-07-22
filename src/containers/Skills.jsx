@@ -39,7 +39,7 @@ const Skills = () => {
                                 {skill.skillName}
                             </UncontrolledTooltip>
                                 </Fragment>
-                            })
+             z               })
                         }
                     </div>
                     <div>

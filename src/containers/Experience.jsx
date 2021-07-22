@@ -26,8 +26,8 @@ const Experience = () => {
                 </div>
                 <Row className="row-grid align-items-center">
                     {
-                        experience.map(data => {
-                            return <ExperienceCard data={data} />
+                        experience.map((data, i) => {
+                            return <ExperienceCard key={i} data={data} />
                         })
                     }
                 </Row>

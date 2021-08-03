@@ -1,4 +1,5 @@
-# developer-portfolio <a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
+<h1 align="center">Welcome to developer-portfolio 👋</h1>
+<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
 
 ## Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.
 
@@ -15,6 +16,7 @@ Just Edit `src/portfolio.js` to get your personal portfolio. Feel free to use it
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
 
 If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
+
 
 ## Table of Contents
 
@@ -102,3 +104,16 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 -   Enable Dark Mode
 
 -   Add More Sections
+
+## Author
+
+👤 **Hanzla Tauqeer**
+
+* Website: https://hanzla.netlify.app
+* Twitter: [@1hanzla100](https://twitter.com/1hanzla100)
+* Github: [@1hanzla100](https://github.com/1hanzla100)
+* LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!

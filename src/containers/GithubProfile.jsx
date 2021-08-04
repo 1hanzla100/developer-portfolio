@@ -5,15 +5,16 @@ import {get} from 'axios';
 import GithubProfileCard from 'components/GithubProfileCard';
 
 const GithubProfile = () => {
-    const [prof, setProf] = useState({})
-    async function  getProfileData()  {
-        await get(`https://api.github.com/users/${openSource.githubUserName}`)
-            .then(res => setProf(res.data))
-            .catch(err => console.log(err))
+    const quary = `https://api.github.com/users/${openSource.githubUserName}`;
+    const [prof, setProf] = useState({});
+    async function getProfileData(q) {
+      await get(q)
+        .then((res) => setProf(res.data))
+        .catch((err) => console.log(err));
     }
     useEffect(() => {
-        getProfileData()
-    });
+      getProfileData(quary);
+    }, [quary]);
     return ( 
         <Suspense fallback={<Loading />}>
            <GithubProfileCard prof={prof}/>

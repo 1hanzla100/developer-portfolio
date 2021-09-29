@@ -1,6 +1,5 @@
-import Head from "next/head";
 import dynamic from "next/dynamic";
-
+import PropTypes from "prop-types";
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
@@ -13,76 +12,43 @@ const GithubProfileCard = dynamic(() =>
 	import("../components/GithubProfileCard")
 );
 import { openSource } from "../portfolio";
+import SEO from "../components/SEO";
 
 export default function Home({ githubProfileData }) {
 	return (
 		<div>
-			<Head>
-				<title>Hanzla Tauqeer</title>
-				<meta name="title" content="Hanzla's Portfolio" />
-				<meta name="author" content="Hanzla" />
-				<meta
-					name="description"
-					content="A passionate Full Stack Web Developer and Mobile App Developer."
-				/>
-				<meta
-					name="keywords"
-					content="Hanzla, Hanzla Tauqeer, @1hanzla100, 1hanzla100, Portfolio, Hanzla Portfolio , Hanzla Tauqeer Portfolio, web developer, full stack, full stack web developer, mobile app developer, android developer, django, flask, django rest framework, nodejs , expressjs, reactjs , contextapi, redux, flutter"
-				/>
-				<link rel="canonical" href="https://developer-portfolio-1hanzla100.vercel.app" />
-				{/* Open Graph / Facebook */}
-				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://developer-portfolio-1hanzla100.vercel.app/" />
-				<meta property="og:title" content="Hanzla's Portfolio" />
-				<meta
-					property="og:description"
-					content="A passionate Full Stack Web Developer and Mobile App Developer."
-				/>
-				<meta
-					property="og:image"
-					content="https://avatars3.githubusercontent.com/u/59178380?v=4"
-				/>
-				<meta property="og:site_name" content="Hanzla's Portfolio" />
-				{/* Twitter */}
-				<meta property="twitter:card" content="summary_large_image" />
-				<meta
-					property="twitter:url"
-					content="https://developer-portfolio-1hanzla100.vercel.app/"
-				/>
-				<meta property="twitter:title" content="Hanzla's Portfolio" />
-				<meta
-					property="twitter:description"
-					content="A passionate Full Stack Web Developer and Mobile App Developer."
-				/>
-				<meta
-					property="twitter:image"
-					content="https://avatars3.githubusercontent.com/u/59178380?v=4"
-				/>
-				<meta name="robots" content="Index"/>
-				<link rel="manifest" href="/manifest.json" />
-				{/* Favicon */}
-				<link
-					rel="apple-touch-icon"
-					sizes="120x120"
-					href="./favicon.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="32x32"
-					href="./favicon.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="16x16"
-					href="./favicon.png"
-				/>
-				<script
-					async
-					src="https://code.iconify.design/1/1.0.4/iconify.min.js"
-				></script>
-			</Head>
+			<SEO
+				data={{
+					title: "Hanzla Tauqeer",
+					description:
+						"A passionate Full Stack Web Developer and Mobile App Developer.",
+					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+					url: "https://developer-portfolio-1hanzla100.vercel.app",
+					keywords: [
+						"Hanzla",
+						"Hanzla Tauqeer",
+						"@1hanzla100",
+						"1hanzla100",
+						"Portfolio",
+						"Hanzla Portfolio ",
+						"Hanzla Tauqeer Portfolio",
+						"web developer",
+						"full stack",
+						"full stack web developer",
+						"mobile app developer",
+						"android developer",
+						"django",
+						"flask",
+						"django rest framework",
+						"nodejs ",
+						"expressjs",
+						"reactjs ",
+						"contextapi",
+						"redux",
+						"flutter",
+					],
+				}}
+			/>
 			<Navigation />
 			<Greetings />
 			<Skills />
@@ -96,7 +62,11 @@ export default function Home({ githubProfileData }) {
 	);
 }
 
-export async function getStaticProps(context) {
+Home.prototype = {
+	githubProfileData: PropTypes.object.isRequired,
+};
+
+export async function getStaticProps(_) {
 	const githubProfileData = await fetch(
 		`https://api.github.com/users/${openSource.githubUserName}`
 	).then((res) => res.json());

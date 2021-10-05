@@ -42,7 +42,6 @@ const Skills = () => {
 										</UncontrolledTooltip>
 									</Fragment>
 								);
-								z;
 							})}
 						</div>
 						<div>

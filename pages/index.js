@@ -19,7 +19,7 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Hanzla Tauqeer",
+					title: "Nicholas Bares",
 					description:
 						"A passionate Full Stack Web Developer and Mobile App Developer.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
@@ -54,8 +54,8 @@ export default function Home({ githubProfileData }) {
 			<Skills />
 			<Proficiency />
 			<Education />
-			<Experience />
-			<Feedbacks />
+			{/* <Experience />
+			<Feedbacks /> */}
 			<Projects />
 			<GithubProfileCard prof={githubProfileData} />
 		</div>

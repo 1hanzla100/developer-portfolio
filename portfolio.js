@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Nicholas Bares",
 	title: "Welcome to my Portfolio",
 	description:
-		"I am an up and coming Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript, Reactjs, Bootstrap, Nodejs and some experience other cool libraries and frameworks such as C#.",
+		"I am an up and coming Full Stack Web Developer with Mobile Responsive Interfaces with experience of building Web applications with JavaScript, Reactjs, Bootstrap, Nodejs and express. I also have some experience other cool technologies such as 3D modeling, Digital Art, and C#.",
 	resumeLink: "https://docs.google.com/document/d/1RbAWOZfslLOmpcj_ijL2NlvMLEnXSdrePhLdcsRivow/edit?usp=sharing",
 };
 

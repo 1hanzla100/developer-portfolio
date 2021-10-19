@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Hanzla Tauqeer",
 	title: "Hi all, I'm Hanzla",
 	description:
-		"A Passionate Data Engineer",
+		"A Passionate Data Engineer with 3+ Years of experience",
 	resumeLink: "https://cv.hanzla.ga",
 };
 

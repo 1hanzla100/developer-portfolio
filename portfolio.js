@@ -117,23 +117,30 @@ export const educationInfo = [
 // ];
 
 export const projects = [
-	// {
-	// 	name: "lorem ipsum",
-	// 	desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-	// 	link: "https://example.com",
-	// },
+	 {
+	 	name: "Pizza Parlor",
+	 	desc: "A demo of an online pizza shop that allows a user to order a varity of different kinds of pizzas and complete a demo checkout.",
+		github: "https://github.com/NBBares/erlang-redux-pizza-parlor-",
+	 	link: "https://github.com/NBBares/erlang-redux-pizza-parlor-",
+	 },
+	 {
+		name: "Movie Saga",
+		desc: "A simple system that allows you to track and manage a movie library.",
+		github: "https://github.com/NBBares/Movie-Sagas-Weekend-Challenge",
+		link: 	"https://github.com/NBBares/Movie-Sagas-Weekend-Challenge"
+	},
 	{
 		name: "Cache Box",
 		desc: "My first fully functional C.R.U.D. app for organizing and storing personal projects fo easy access and management",
 		github: "https://github.com/NBBares/Cache-Box-Solo-Project",
-		link: "https://github.com/NBBares/Cache-Box-Solo-Project"
+		link: "https://frozen-island-57312.herokuapp.com/#/home"
 	},
-	// {
-	// 	name: "lorem ipsum",
-	// 	desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+	 {	
+	 	name: "4 Luv of Dog",
+	 	desc: "An in progress application for the local non-profit 4 Luv of Dog to help streamline their application process.",
 	// 	github: "https://github.com/1hanzla100",
 	// 	link: "https://example.com",
-	// },
+	 },
 ];
 
 // export const feedbacks = [

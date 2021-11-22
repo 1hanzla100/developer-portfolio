@@ -116,9 +116,3 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
--   Read cvc
-    validate regex
-    mx records
-    tegex before @
-    domain records

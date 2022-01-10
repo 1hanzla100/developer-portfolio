@@ -3,7 +3,7 @@ import { Card, CardBody, Badge } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
-const EdutionCard = ({ education }) => {
+const EducationCard = ({ education }) => {
 	return (
 		<Fade left duration={1000} distance="40px">
 			<Card className="card-lift--hover shadow mt-4">
@@ -33,4 +33,4 @@ const EdutionCard = ({ education }) => {
 	);
 };
 
-export default EdutionCard;
+export default EducationCard;

@@ -1,50 +1,50 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Sujit Gangadharan",
+	title: "Hi all, I'm Sujit",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"A passionate technology consultant with with a broad range of DevOps, containerization and cloud expertise.",
+	resumeLink: "http://resume.sujitg.com",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "jisujit",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	//facebook: "https://www.facebook.com/1hanzla100",
+	instagram: "https://www.instagram.com/gsujitji/",
+	twitter: "https://twitter.com/jisujitji",
+	github: "https://github.com/jisujit",
+	linkedin: "https://www.linkedin.com/in/sujitg/",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"DevOps, Cloud, Monitoring and SRE",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡ Automate CI/CD build pipelines and deployments"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ On Prem and cloud containerization and container orchestration technologies"
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Site Reliability Engineering"
 		),
 	],
 
 	softwareSkills: [
 		{
-			skillName: "html-5",
+			skillName: "Gitlab",
 			fontAwesomeClassname: "vscode-icons:file-type-html",
 		},
 		{
-			skillName: "css3",
+			skillName: "Docker",
 			fontAwesomeClassname: "vscode-icons:file-type-css",
 		},
 		{

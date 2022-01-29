@@ -19,9 +19,9 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Hanzla Tauqeer",
+					title: "Sujit Gangadharan",
 					description:
-						"A passionate Full Stack Web Developer and Mobile App Developer.",
+						"Technology consultant with DevOps Cloud and Containerization expertise",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
 					url: "https://developer-portfolio-1hanzla100.vercel.app",
 					keywords: [

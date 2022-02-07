@@ -44,7 +44,7 @@ const ExperienceCard = ({ data }) => {
 						</div>
 						<CardTitle tag="h5">{data.role}</CardTitle>
 						<CardSubtitle>{data.date}</CardSubtitle>
-						<CardText className="description my-3 text-left">
+						<CardText tag="div" className="description my-3 text-left">
 							{data.desc}
 							<ul>
 								{data.descBullets

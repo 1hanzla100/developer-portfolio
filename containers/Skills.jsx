@@ -1,9 +1,8 @@
+import { Icon } from "@iconify/react";
 import React, { Fragment } from "react";
-
 import { Fade } from "react-reveal";
+import { Col, Container, Row, UncontrolledTooltip } from "reactstrap";
 import DisplayLottie from "../components/DisplayLottie";
-import { Container, Row, Col, UncontrolledTooltip } from "reactstrap";
-
 import { skillsSection } from "../portfolio";
 
 const Skills = () => {
@@ -25,13 +24,12 @@ const Skills = () => {
 											className="icon icon-lg icon-shape shadow rounded-circle mb-5"
 											id={skill.skillName}
 										>
-											<span
-												className="iconify"
-												data-icon={
+											<Icon
+												icon={
 													skill.fontAwesomeClassname
 												}
 												data-inline="false"
-											></span>
+											></Icon>
 										</div>
 										<UncontrolledTooltip
 											delay={0}

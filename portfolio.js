@@ -1,40 +1,41 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: 'Tarik "Fujin" Ermis',
+	title: "Hi all, I'm Tarik",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"A passionate Full Stack Web Developer, Mobile App Developer and Blockchain Developer having an experience of building Web applications with JavaScript / Reactjs / Vuejs / Nodejs / Python / Solidity / PHP and many other cool libraries and frameworks and Cross Platform Mobile Apps With React-Native.",
+	resumeLink: "https://techrez.io/resume/tarik-ermis",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "xfujin",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	twitter: "https://twitter.com/fujin74",
+	github: "https://github.com/xfujin",
+	linkedin: "https://www.linkedin.com/in/tarikermis",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"AMBITIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡ Develop highly interactive Full-Stack-Applications & Webshops tailored to your needs"
 		),
 		emoji(
 			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
 		),
 		emoji(
 			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+		),
+		emoji(
+			"⚡ Setup and Develop Blockchain Applications with Smart-Contract Integration"
 		),
 	],
 
@@ -64,12 +65,24 @@ export const skillsSection = {
 			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 		},
 		{
+			skillName: "vuejs",
+			fontAwesomeClassname: "vscode-icons:file-type-vue",
+		},
+		{
 			skillName: "nodejs",
 			fontAwesomeClassname: "logos:nodejs-icon",
 		},
 		{
+			skillName: "solidity",
+			fontAwesomeClassname: "vscode-icons:file-type-solidity",
+		},
+		{
 			skillName: "flutter",
 			fontAwesomeClassname: "logos:flutter",
+		},
+		{
+			skillName: "react-native",
+			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 		},
 		{
 			skillName: "swift",
@@ -112,106 +125,101 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "Frontend/Design",
+		progressPercentage: "95",
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "90",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "99",
+	},
+	{
+		Stack: "Blockchain / Smart Contracts",
+		progressPercentage: "80",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Technisch Gewerbliches Berufs-Bildungs-Zentrum 1 Saarbrücken",
+		subHeader: "Specialised Computer Technology Scientist for Application Development",
+		duration: "Aug 2016 - Jun 2019",
 	},
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Fachoberschule Technische Informatik BBZ Völklingen",
+		subHeader: "Allgemeine Fachhochschulreife",
+		duration: "Aug 2014 - Jul 2016",
+
 	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
-	},
+
 ];
 
 export const experience = [
 	{
 		role: "Software Engineer",
-		company: "Google",
-		companylogo: "/img/icons/common/google.svg",
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		company: "Integr8 media GmbH",
+		companylogo: "/img/icons/common/integr8.webp",
+		date: "Aug 2021 - Mar 2022",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Full stack mobile apps running on React Native",
+			"Implementing automation tools via Python",
+			"Integrating and managing cloud apps on Microsoft Azure / AWS",
+			"Machine Learning Chatbot implementation in RASA / BotKit",
+			"Full stack web apps with Vue.Js, Nuxt.Js, Express.Js and MongoDB",
 		],
 	},
 	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: "/img/icons/common/github.svg",
+		role: "Full Stack Web Developer",
+		company: "N4 Group Germany",
+		companylogo: "/img/icons/common/n4.jpg",
 		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		descBullets: [
+			"Fully responsive React.Js front-ends",
+			"Rest-API integration",
+			"performant and scalable backends in Express.Js",
+			"serverside-rendering with React-Redux",
+			"setting up and integrating PostgreSQL / MySQL Databases",
+			"automated testing and deployment with gitlab-ci and Docker / Kubernetes",
+		],
 	},
 	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: "/img/icons/common/airbnbLogo.png",
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
+		role: "Apprentice Web Developer",
+		company: "SUMITS Deutschland GmbH",
+		companylogo: "/img/icons/common/sumits.jfif",
+		date: "Aug 2016 - Mar 2018",
+		desc: "Full Management of Websites created in Wordpress, involving the creation, design, deployment and developing own plugins."
+	}
 ];
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "OdinBoost | Game Service Shop",
+		desc: "Nuxt.Js App with an Express.Js backend",
+		link: "https://odinboost.com/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "Mega Elo Boost | Game Service Shop",
+		desc: "Nuxt.Js App with an Express.Js backend",
+		link: "https://megaeloboost.com/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "Moria Elo Boost | Game Service Shop",
+		desc: "Nuxt.Js App with an Express.Js backend",
+		link: "https://moriaeloboost.com/",
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "Hassan Mehmood",
+		name: "Odinboost.com",
 		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Tarik tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose tarik web developer services for u.",
 	},
 	{
-		name: "Maheen Altaf",
+		name: "Megaeloboost.com",
 		feedback:
 			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
 	},

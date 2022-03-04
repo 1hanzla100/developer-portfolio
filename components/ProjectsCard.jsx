@@ -40,7 +40,7 @@ const ProjectsCard = ({ data }) => {
 											<i className="fa fa-arrow-right mr-2" />
 										</span>
 										<span className="nav-link-inner--text ml-1">
-											Demo
+											Visit Website
 										</span>
 									</Button>
 								) : null}

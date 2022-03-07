@@ -2,9 +2,10 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: 'Tarik "Fujin" Ermis',
-	title: "Hi all, I'm Tarik",
+	title: "Greetings, I'm Tarik",
+	subtitle: "a passionate Full Stack Web Developer, Mobile App Developer and Blockchain Developer",
 	description:
-		"A passionate Full Stack Web Developer, Mobile App Developer and Blockchain Developer having an experience of building Web applications with JavaScript / Reactjs / Vuejs / Nodejs / Python / Solidity / PHP and many other cool libraries and frameworks and Cross Platform Mobile Apps With React-Native.",
+		"having an experience of building all kinds of Applications with JavaScript / Reactjs / Vuejs / Nodejs / React-Native / Solidity / Python / PHP and many other cool libraries and frameworks.",
 	resumeLink: "https://techrez.io/resume/tarik-ermis",
 };
 
@@ -21,21 +22,27 @@ export const socialLinks = {
 };
 
 export const skillsSection = {
-	title: "What I do",
+	title: "Provided Services",
 	subTitle:
-		"AMBITIOUS FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"No Mountain is too high to climb. No matter if you want a Webapp, Webshop, Mobile App or even a Blockchain Solution, I will bring it to life.",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Full-Stack-Applications & Webshops tailored to your needs"
+			"⚡ Develop highly interactive Full-Stack-Applications, Mobile Applications & Webshops tailored to your needs"
+		),
+		emoji(
+			"⚡ Setup and Development of Blockchain Applications with Smart-Contract Integration"
 		),
 		emoji(
 			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Integration of third party services such as Firebase / AWS / Digital Ocean"
 		),
 		emoji(
-			"⚡ Setup and Develop Blockchain Applications with Smart-Contract Integration"
+			"⚡ Search Engine Optimization ( SEO )"
+		),
+		emoji(
+			"⚡ And Much More! Contact me for Custom Individualized Solutions"
 		),
 	],
 
@@ -44,6 +51,7 @@ export const skillsSection = {
 			skillName: "html-5",
 			fontAwesomeClassname: "vscode-icons:file-type-html",
 		},
+
 		{
 			skillName: "css3",
 			fontAwesomeClassname: "vscode-icons:file-type-css",
@@ -71,6 +79,10 @@ export const skillsSection = {
 		{
 			skillName: "nodejs",
 			fontAwesomeClassname: "logos:nodejs-icon",
+		},
+		{
+			skillName: "SEO",
+			fontAwesomeClassname: "logos:google",
 		},
 		{
 			skillName: "solidity",
@@ -197,30 +209,35 @@ export const experience = [
 export const projects = [
 	{
 		name: "OdinBoost | Game Service Shop",
-		desc: "Nuxt.Js App with an Express.Js backend",
+		desc: "Fully individualized Webshop based on Vuejs, Expressjs and MongoDB. SEO Score of 90% on Seobility.",
 		link: "https://odinboost.com/",
 	},
 	{
 		name: "Mega Elo Boost | Game Service Shop",
-		desc: "Nuxt.Js App with an Express.Js backend",
+		desc: "Fully individualized Webshop based on Vuejs, Expressjs and MongoDB. SEO Score of 92% on Seobility.",
 		link: "https://megaeloboost.com/",
 	},
 	{
 		name: "Moria Elo Boost | Game Service Shop",
-		desc: "Nuxt.Js App with an Express.Js backend",
+		desc: "Fully individualized Webshop based on Vuejs, Expressjs and MongoDB. SEO Score of 89% on Seobility.",
 		link: "https://moriaeloboost.com/",
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "Odinboost.com",
+		name: "OdinBoost, Inc. - CEO",
 		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Tarik tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose tarik web developer services for u.",
+			"It's always a pleasure to work with Tarik, he's been working with me for a couple of years now, taking all the time he can to respond to the customer's requests, doing it as quickly and with the highest standards of quality as possible. Thank you from the bottom of my heart, Tarik.",
 	},
 	{
-		name: "Megaeloboost.com",
+		name: "MegaEloBoost - CEO",
 		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
+			"Thanks to Tarik, our website has become even better than we imagined. With his work, he completely renewed our site, created it from scratch and gave us an incredible increase in traffic. Now our site has high SEO scores and is at the top of organic search results, we would like to thank Tarik for all this devoted work.",
+	},
+	{
+		name: "MoriaEloBoost - CEO",
+		feedback:
+			"We have been working with Tarik since May 2020. What we have noticed from the very first day of our cooperation is that he is a very professional and hardworking person. In these 2 years, he has quickly solved every problem we have encountered and has been able to keep us happy at all times. We are incredibly pleased to have worked with Tarik, who is the best in his field.",
 	},
 ];

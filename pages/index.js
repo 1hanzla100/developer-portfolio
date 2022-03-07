@@ -19,7 +19,7 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: 'Tarik "Fujin" Ermis',
+					title: 'Tarik "Fujin" Ermis | Full Stack Developer',
 					description:
 						"A passionate Full Stack Web Developer, Mobile App Developer and Blockchain Developer.",
 					image: "https://avatars.githubusercontent.com/u/31302793?v=4",

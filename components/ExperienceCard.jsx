@@ -13,7 +13,6 @@ import {
 import Color from "color-thief-react";
 
 import { Fade } from "react-reveal";
-import Image from "next/image";
 
 const ExperienceCard = ({ data }) => {
 	return (
@@ -35,8 +34,8 @@ const ExperienceCard = ({ data }) => {
 							className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
 							style={{ width: "100px", height: "100px" }}
 						>
-							<Image
-								src={data.companylogo}
+							<img
+								src={`${data.companylogo}`}
 								width={"100px"}
 								height={"100px"}
 								alt={data.companylogo}
@@ -49,8 +48,8 @@ const ExperienceCard = ({ data }) => {
 							<ul>
 								{data.descBullets
 									? data.descBullets.map((desc) => {
-											return <li key={desc}>{desc}</li>;
-									  })
+										return <li key={desc}>{desc}</li>;
+									})
 									: null}
 							</ul>
 						</CardText>

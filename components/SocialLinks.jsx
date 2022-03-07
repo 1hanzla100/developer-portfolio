@@ -44,6 +44,17 @@ const SocialLinks = () => {
 					<i className="fa fa-linkedin" />
 				</span>
 			</Button>
+			<Button
+				className="btn-icon-only rounded-circle ml-1"
+				color="github"
+				rel="noopener"
+				aria-label="imprint"
+				href="/imprint"
+			>
+				<span className="btn-inner--icon">
+					§
+				</span>
+			</Button>
 		</div>
 	);
 };

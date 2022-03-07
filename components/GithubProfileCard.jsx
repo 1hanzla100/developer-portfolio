@@ -1,9 +1,10 @@
 import React from "react";
 
-import { Card, Col, Row, Container } from "reactstrap";
+import { Card, Col, Row, Container, NavLink } from "reactstrap";
 
 import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
+import Link from 'next/link'
 
 const GithubProfileCard = ({ prof }) => {
 	return (
@@ -20,7 +21,7 @@ const GithubProfileCard = ({ prof }) => {
 							/>
 						</Col>
 						<Col lg="8" className="order-lg-1">
-							<h2 className="text-white">Reach Out to me!</h2>
+							<h2 className="text-white">Want to work with me?</h2>
 							<p className="lead text-white mt-3">
 								You can always reach out to me via my social media or directly <a style={{ color: "white", textDecoration: "underline" }} href="mailto:admin@fujin-solutions.com">via mail!</a>
 							</p>
@@ -29,6 +30,7 @@ const GithubProfileCard = ({ prof }) => {
 								{prof.location}
 							</div>
 							<SocialLinks />
+
 						</Col>
 					</Row>
 				</div>

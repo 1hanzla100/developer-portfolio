@@ -32,6 +32,10 @@ const Greetings = () => {
 								<Col lg="6">
 									<h1 className="display-3 text-white">
 										{greetings.title + " "}
+										<br></br>
+										<small>
+											{greetings.subtitle + " "}
+										</small>
 									</h1>
 									<p className="lead text-white">
 										{greetings.description}

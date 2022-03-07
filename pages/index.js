@@ -39,6 +39,7 @@ export default function Home({ githubProfileData }) {
 						"mobile app developer",
 						"android developer",
 						"blockchain developer",
+						"SEO",
 						"nuxt",
 						"vue.js",
 						"nodejs",

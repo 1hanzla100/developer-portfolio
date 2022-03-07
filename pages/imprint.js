@@ -34,6 +34,7 @@ export default function Imprint({ githubProfileData }) {
                         "mobile app developer",
                         "android developer",
                         "blockchain developer",
+                        "SEO",
                         "nuxt",
                         "vue.js",
                         "nodejs",

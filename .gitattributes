@@ -1,4 +1,4 @@
-styles/* linguist-vendored
+styles/* linguist-vendored=true
 *.js linguist-vendored=false
 *.jsx linguist-vendored=false
 *.css linguist-vendored=true

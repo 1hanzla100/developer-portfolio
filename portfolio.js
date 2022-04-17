@@ -229,14 +229,14 @@ export const experience = [
 		role: "Full Stack Developer",
 		company: "Bleed-AI",
 		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "May 2017 – May 2018",
+		date: "Sept 2021 - Oct 2021",
 		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
 	},
 	{
 		role: "Backend Developer",
 		company: "Wapidu",
 		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Jan 2015 – Sep 2015",
+		date: "Sept 2021",
 		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
 	},
 ];

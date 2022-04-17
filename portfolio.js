@@ -215,10 +215,10 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Software Engineer",
+		role: "API Engineer",
 		company: "Duseca Software",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "June 2018 – Present",
+		date: "Jan 2022 – Mar 2022",
 		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
@@ -226,14 +226,14 @@ export const experience = [
 		// ],
 	},
 	{
-		role: "Front-End Developer",
+		role: "Full Stack Developer",
 		company: "Bleed-AI",
 		companylogo: "/img/icons/common/bleedAI.jpg",
 		date: "May 2017 – May 2018",
 		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
 	},
 	{
-		role: "Software Engineer Intern",
+		role: "Backend Developer",
 		company: "Wapidu",
 		companylogo: "/img/icons/common/wapidu.jpg",
 		date: "Jan 2015 – Sep 2015",

@@ -12,7 +12,7 @@ const Skills = () => {
 			<p className="lead">{skillsSection.subTitle}</p>
 			{skillsSection.data.map((section, index) => {
 				return (
-					<Row className="my-5">
+					<Row className="my-5" key={index}>
 						<Col lg="6">
 							<Fade left duration={2000}>
 								<DisplayLottie
@@ -26,7 +26,7 @@ const Skills = () => {
 								<div className="d-flex justify-content-center flex-wrap mb-2">
 									{section.softwareSkills.map((skill, i) => {
 										return (
-											<Fragment key={skill.skillName.replace(/\s/g, '')}>
+											<Fragment key={i}>
 												<div
 													className="icon icon-lg icon-shape shadow-sm rounded-circle m-1"
 													id={skill.skillName.replace(/\s/g, '')}

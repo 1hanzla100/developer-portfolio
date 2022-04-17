@@ -6,45 +6,47 @@ import {
 	CardTitle,
 	CardSubtitle,
 	CardText,
-	CardHeader,
 	Col,
 } from "reactstrap";
 
-import Color from "color-thief-react";
-
 import { Fade } from "react-reveal";
-import Image from "next/image";
 
 const ExperienceCard = ({ data }) => {
 	return (
-		<Col lg="4">
-			<Fade left duration={2000} >
+		<Col lg="6">
+			<Fade left duration={2000}>
 				<Card
 					style={{ flex: 1 }}
-					className="shadow-lg--hover shadow border-0 text-center rounded"
+					className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"
 				>
-					<Color src={data.companylogo} format="hex">
-						{(color) => (
-							<CardHeader style={{ background: color.data }}>
-								<h5 className="text-white">{data.company}</h5>
-							</CardHeader>
-						)}
-					</Color>
-					<CardBody className="py-5">
-						<div
-							className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
-							style={{ width: "100px", height: "100px" }}
-						>
-							<Image
-								src={data.companylogo}
-								width={"100px"}
-								height={"100px"}
-								alt={data.companylogo}
-							/>
-						</div>
-						<CardTitle tag="h5">{data.role}</CardTitle>
+					<CardBody className="">
+						<img
+							src={data.companylogo}
+							style={{
+								objectFit: "cover",
+								left: 0,
+								right: 0,
+								top: "7rem",
+								marginLeft: "auto",
+								marginRight: "auto",
+								width: "8rem",
+								height: "8rem",
+								borderRadius: "50%",
+							}}
+							className="shadow mb-3"
+							alt={data.companylogo}
+						/>
+						<CardTitle tag="h4" className="mb-2">
+							{data.company}
+						</CardTitle>
+						<CardSubtitle tag="h5" className="mb-2">
+							{data.role}
+						</CardSubtitle>
 						<CardSubtitle>{data.date}</CardSubtitle>
-						<CardText tag="div" className="description my-3 text-left">
+						<CardText
+							tag="div"
+							className="description my-3 text-left"
+						>
 							{data.desc}
 							<ul>
 								{data.descBullets

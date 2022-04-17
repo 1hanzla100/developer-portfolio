@@ -211,83 +211,75 @@ export const educationInfo = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
 	},
-	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
-		],
-	},
 ];
 
 export const experience = [
 	{
 		role: "Software Engineer",
-		company: "Google",
-		companylogo: "/img/icons/common/google.svg",
+		company: "Duseca Software",
+		companylogo: "/img/icons/common/dusecaSoftware.jpg",
 		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		// descBullets: [
+		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
 	},
 	{
 		role: "Front-End Developer",
-		company: "Github",
-		companylogo: "/img/icons/common/github.svg",
+		company: "Bleed-AI",
+		companylogo: "/img/icons/common/bleedAI.jpg",
 		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
 	},
 	{
 		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: "/img/icons/common/airbnbLogo.png",
+		company: "Wapidu",
+		companylogo: "/img/icons/common/wapidu.jpg",
 		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
 	},
 ];
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "AtlasMart",
+		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
+		link: "https://atlasmart.netlify.app/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "Technota (Forum)",
+		desc: "Get hands-on experience in technical skills with Technota",
+		link: "https://technota.netlify.app/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "Shopaza (Ecommerce)",
+		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
+		link: "https://shopaza.herokuapp.com/",
+	},
+	{
+		name: "MMFmelody (Blog)",
+		desc: "Here you will find amazing tips about health, beauty, and modern-day life.",
+		// github: "https://github.com/1hanzla100",
+		link: "https://mmfmelody.herokuapp.com/",
+	},
+	{
+		name: "Developer-Portfolio",
+		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
+		github: "https://github.com/1hanzla100/developer-portfolio",
+		link: "https://developer-portfolio-1hanzla100.vercel.app/",
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "Hassan Mehmood",
+		name: "John Smith",
 		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
 	},
 	{
-		name: "Maheen Altaf",
+		name: "John Smith",
 		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
+			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
 	},
 ];

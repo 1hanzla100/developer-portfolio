@@ -19,7 +19,7 @@ export const socialLinks = {
 	instagram: "https://www.instagram.com/1hanzla100",
 	twitter: "https://twitter.com/1hanzla100",
 	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	linkedin: "https://www.linkedin.com/in/1hanzla100/",
 };
 
 export const skillsSection = {

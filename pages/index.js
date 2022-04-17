@@ -21,7 +21,7 @@ export default function Home({ githubProfileData }) {
 				data={{
 					title: "Hanzla Tauqeer",
 					description:
-						"A passionate Full Stack Web Developer and Mobile App Developer.",
+						"A passionate Full Stack Web Developer and Blockchain Developer.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
 					url: "https://developer-portfolio-1hanzla100.vercel.app",
 					keywords: [
@@ -32,20 +32,6 @@ export default function Home({ githubProfileData }) {
 						"Portfolio",
 						"Hanzla Portfolio ",
 						"Hanzla Tauqeer Portfolio",
-						"web developer",
-						"full stack",
-						"full stack web developer",
-						"mobile app developer",
-						"android developer",
-						"django",
-						"flask",
-						"django rest framework",
-						"nodejs ",
-						"expressjs",
-						"reactjs ",
-						"contextapi",
-						"redux",
-						"flutter",
 					],
 				}}
 			/>

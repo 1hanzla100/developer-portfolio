@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 const ProjectsCard = ({ data }) => {
 	return (
 		<Col lg="6">
-			<Fade left duration={1000} distance="40px">
+			<Fade left duration={2000} >
 				<Card className="shadow-lg--hover shadow mt-4">
 					<CardBody>
 						<div className="d-flex px-3">

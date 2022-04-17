@@ -18,7 +18,7 @@ import Image from "next/image";
 const ExperienceCard = ({ data }) => {
 	return (
 		<Col lg="4">
-			<Fade left duration={1000} distance="40px">
+			<Fade left duration={2000} >
 				<Card
 					style={{ flex: 1 }}
 					className="shadow-lg--hover shadow border-0 text-center rounded"

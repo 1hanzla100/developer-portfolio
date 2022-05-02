@@ -14,13 +14,6 @@ const Skills = () => {
 				return (
 					<Row className="my-5" key={index}>
 						<Col lg="6">
-							<Fade left duration={2000}>
-								<DisplayLottie
-									animationPath={section.lottieAnimationFile}
-								/>
-							</Fade>
-						</Col>
-						<Col lg="6">
 							<Fade right duration={2000}>
 								<h3 className="h3 mb-2">{section.title}</h3>
 								<div className="d-flex justify-content-center flex-wrap mb-2">
@@ -56,47 +49,16 @@ const Skills = () => {
 								</div>
 							</Fade>
 						</Col>
+						<Col lg="6">
+							<Fade left duration={2000}>
+								<DisplayLottie
+									animationPath={section.lottieAnimationFile}
+								/>
+							</Fade>
+						</Col>
 					</Row>
 				);
 			})}
-			{/* <Row>
-					<Col lg="6">
-						<DisplayLottie animationPath="/lottie/webdev.json" />
-					</Col>
-					<Col lg="6">
-						<div className="d-flex justify-content-center flex-wrap mb-5">
-							{skillsSection.softwareSkills.map((skill) => {
-								return (
-									<Fragment key={skill.skillName}>
-										<div
-											className="icon icon-lg icon-shape shadow rounded-circle mb-5"
-											id={skill.skillName}
-										>
-											<Icon
-												icon={
-													skill.fontAwesomeClassname
-												}
-												data-inline="false"
-											></Icon>
-										</div>
-										<UncontrolledTooltip
-											delay={0}
-											placement="bottom"
-											target={skill.skillName}
-										>
-											{skill.skillName}
-										</UncontrolledTooltip>
-									</Fragment>
-								);
-							})}
-						</div>
-						<div>
-							{skillsSection.skills.map((skill) => {
-								return <p key={skill}>{skill}</p>;
-							})}
-						</div>
-					</Col>
-				</Row> */}
 		</Container>
 	);
 };

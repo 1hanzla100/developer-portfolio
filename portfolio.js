@@ -97,6 +97,7 @@ export const skillsSection = {
 				),
 			],
 			softwareSkills: [
+				// ? Check README To get icon details
 				{
 					skillName: "AWS",
 					fontAwesomeClassname: "logos:aws",

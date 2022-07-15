@@ -9,7 +9,7 @@
   </kbd>
 </p>
 
-### To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
 
 Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
@@ -17,17 +17,6 @@ But if you want to **contribute** and make this much better for other developer 
 
 If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
 
-## Table of Contents
-
--   [Sections](#sections)
--   [Getting Started](#getting-started)
--   [How to Use](#how-to-use)
--   [Linking portfolio to Github](#linking-portfolio-to-github)
--   [Change and Customize](#change-and-customize-every-section-according-to-your-need)
--   [Technologies Used](#technologies-used)
--   [Illustrations](#illustrations)
--   [For the Future](#for-the-future)
--   [Contributors](#project-maintainers)
 
 ## Sections
 
@@ -35,6 +24,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Skills\
 ✔️ Education\
 ✔️ Work Experience\
+✔️ Feedbacks\
 ✔️ Projects\
 ✔️ Github Profile
 
@@ -96,9 +86,12 @@ For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` functi
 
 -   [Lottie File Source](https://lottiefiles.com)
 
+## Icons
+Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
+
 ## For the Future
 
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
 
 -   Enable Dark Mode
 
@@ -109,7 +102,6 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 👤 **Hanzla Tauqeer**
 
 -   Website: https://hanzla.netlify.app
--   Twitter: [@1hanzla100](https://twitter.com/1hanzla100)
 -   Github: [@1hanzla100](https://github.com/1hanzla100)
 -   LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
 

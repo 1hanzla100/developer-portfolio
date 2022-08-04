@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
 	resumeLink:
-		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
+		"https://drive.google.com/file/d/1WD21Y1fzGmdKY6R8lrK01X4YH9RBUxOa/view?usp=sharing",
 };
 
 export const openSource = {
@@ -17,7 +17,7 @@ export const contact = {};
 
 export const socialLinks = {
 	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
+	instagram: "https://www.instagram.com/__hanzla100",
 	twitter: "https://twitter.com/1hanzla100",
 	github: "https://github.com/1hanzla100",
 	linkedin: "https://www.linkedin.com/in/1hanzla100/",
@@ -216,6 +216,13 @@ export const educationInfo = [
 
 export const experience = [
 	{
+		role: "Frontend Developer",
+		company: "Duseca Software",
+		companylogo: "/img/icons/common/dusecaSoftware.jpg",
+		date: "Apr 2022 – Jun 2022",
+		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+	},
+	{
 		role: "API Engineer",
 		company: "Duseca Software",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
@@ -244,31 +251,25 @@ export const experience = [
 
 export const projects = [
 	{
+		name: "developer-portfolio",
+		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
+		github: "https://github.com/1hanzla100/developer-portfolio",
+		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+	},
+	{
 		name: "AtlasMart",
 		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		link: "https://atlasmart.netlify.app/",
+		github: "https://github.com/1hanzla100/Django-React-Marketplace",
 	},
 	{
 		name: "Technota (Forum)",
 		desc: "Get hands-on experience in technical skills with Technota",
-		link: "https://technota.netlify.app/",
+		github: "https://github.com/1hanzla100/django-react-forum",
 	},
 	{
 		name: "Shopaza (Ecommerce)",
 		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		link: "https://shopaza.herokuapp.com/",
-	},
-	{
-		name: "MMFmelody (Blog)",
-		desc: "Here you will find amazing tips about health, beauty, and modern-day life.",
-		// github: "https://github.com/1hanzla100",
-		link: "https://mmfmelody.herokuapp.com/",
-	},
-	{
-		name: "Developer-Portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		github: "https://github.com/1hanzla100/Django-ecommerce",
 	},
 ];
 

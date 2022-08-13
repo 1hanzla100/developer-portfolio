@@ -5,7 +5,7 @@ import FeedbackCard from "../components/FeedbackCard";
 import { Fade } from "react-reveal";
 
 const Feedbacks = () => {
-	return (
+	return feedbacks && (
 		<section className="section section-lg">
 			<Container>
 				<div className="d-flex p-4">

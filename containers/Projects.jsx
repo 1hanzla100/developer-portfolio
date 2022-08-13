@@ -6,7 +6,7 @@ import ProjectsCard from "../components/ProjectsCard";
 import { Fade } from "react-reveal";
 
 const Projects = () => {
-	return (
+	return projects && (
 		<section className="section section-lg">
 			<Container>
 				<div className="d-flex p-4">

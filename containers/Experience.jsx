@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 import ExperienceCard from "../components/ExperienceCard";
 
 const Experience = () => {
-	return (
+	return experience && (
 		<section className="section section-lg">
 			<Container>
 				<div className="d-flex p-4">

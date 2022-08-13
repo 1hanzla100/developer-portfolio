@@ -7,7 +7,7 @@ import { Fade } from "react-reveal";
 import GreetingLottie from "../components/DisplayLottie";
 
 const Proficiency = () => {
-	return (
+	return SkillBars && (
 		<Container className="section section-lg">
 			<Fade bottom duration={2000} >
 				<Row>

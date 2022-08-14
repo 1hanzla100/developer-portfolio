@@ -2,28 +2,30 @@ import React from "react";
 import Head from "next/head";
 import PropTypes from "prop-types";
 
-function SEO({ data }) {
+import { seoData } from "../portfolio";
+
+function SEO() {
 	return (
 		<Head>
-			<title>{data.title}</title>
-			<meta name="title" content={data.title} />
-			<meta name="author" content="Hanzla Tauqeer" />
-			<meta name="description" content={data.description} />
-			<meta name="keywords" content={data.keywords.join(", ")} />
-			<link rel="canonical" href={data.url} />
+			<title>{seoData.title}</title>
+			<meta name="title" content={seoData.title} />
+			<meta name="author" content={seoData.author} />
+			<meta name="description" content={seoData.description} />
+			<meta name="keywords" content={seoData.keywords.join(", ")} />
+			<link rel="canonical" href={seoData.url} />
 			{/* Open Graph / Facebook */}
 			<meta property="og:type" content="website" />
-			<meta property="og:url" content={data.url} />
-			<meta property="og:title" content={data.title} />
-			<meta property="og:description" content={data.description} />
-			<meta property="og:image" content={data.image} />
-			<meta property="og:site_name" content={data.title} />
+			<meta property="og:url" content={seoData.url} />
+			<meta property="og:title" content={seoData.title} />
+			<meta property="og:description" content={seoData.description} />
+			<meta property="og:image" content={seoData.image} />
+			<meta property="og:site_name" content={seoData.title} />
 			{/* Twitter */}
 			<meta property="twitter:card" content="summary_large_image" />
-			<meta property="twitter:url" content={data.url} />
-			<meta property="twitter:title" content={data.title} />
-			<meta property="twitter:description" content={data.description} />
-			<meta property="twitter:image" content={data.image} />
+			<meta property="twitter:url" content={seoData.url} />
+			<meta property="twitter:title" content={seoData.title} />
+			<meta property="twitter:description" content={seoData.description} />
+			<meta property="twitter:image" content={seoData.image} />
 			<meta name="robots" content="Index" />
 			<link rel="manifest" href="/manifest.json" />
 			{/* Favicon */}
@@ -47,6 +49,7 @@ function SEO({ data }) {
 SEO.prototype = {
 	data: PropTypes.shape({
 		title: PropTypes.string.isRequired,
+		author: PropTypes.string,
 		description: PropTypes.string,
 		image: PropTypes.string,
 		url: PropTypes.string,

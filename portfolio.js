@@ -286,3 +286,22 @@ export const feedbacks = [
 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
 	},
 ];
+
+// See object prototype on SEO.jsx page
+export const seoData = {
+	title: "Hanzla Tauqeer",
+	description:
+		"A passionate Full Stack Web Developer and Blockchain Developer.",
+	author: "Hanzla Tauqeer",
+	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	keywords: [
+		"Hanzla",
+		"Hanzla Tauqeer",
+		"@1hanzla100",
+		"1hanzla100",
+		"Portfolio",
+		"Hanzla Portfolio ",
+		"Hanzla Tauqeer Portfolio",
+	],
+}

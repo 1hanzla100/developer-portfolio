@@ -20,6 +20,7 @@ export default function Home({ githubProfileData }) {
 			<SEO
 				data={{
 					title: "Hanzla Tauqeer",
+					author: "Hanzla Tauqeer",
 					description:
 						"A passionate Full Stack Web Developer and Blockchain Developer.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",

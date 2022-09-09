@@ -44,19 +44,24 @@ git@2.17.1 or higher
 
 ## How To Use
 
-From your command line, clone and run developer-portolio:
-
+1. Fork this repoistory and clone it to your local machine.
 ```bash
-# Clone this repository
-$ git clone https://github.com/1hanzla100/developer-portfolio.git
-
-# Go into the repository
+$ git clone https://github.com/<your-username>/developer-portfolio.git
+``` 
+2. Go into the repository
+```bash
 $ cd developer-portfolio
+```
 
-# Install dependencies
+3. Install dependencies
+```bash
 $ yarn
+```
 
-#Start's development server
+4. Edit `portfolio.js`
+
+5. Start's development server
+```bash
 $ yarn dev
 ```
 

@@ -10,7 +10,7 @@ const SocialLinks = () => {
 			{socialLinks.url && (
 				<Button
 					className="btn-icon-only rounded-circle ml-1"
-					color="light"
+					color="white"
 					rel="noopener"
 					aria-label="URL"
 					href={socialLinks.url}

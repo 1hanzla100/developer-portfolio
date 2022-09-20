@@ -1,11 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
 import EducationCard from "../components/EducationCard";
 import { educationInfo } from "../portfolio";
 import { Container, Row, Col } from "reactstrap";
+import {ThemeContext} from "../styles/theme/theme";
 
 const Education = () => {
+	const {theme , mode} = useContext(ThemeContext);
+	const {oppositeTextColor} = theme;
 	return educationInfo && (
-		<section className="section pb-0 bg-gradient-info my-5">
+		<section className="section pb-100 bg-gradient-info my-5">
 			<Container>
 				<div className="d-flex px-3">
 					<div>
@@ -36,12 +39,12 @@ const Education = () => {
 					xmlns="http://www.w3.org/2000/svg"
 					preserveAspectRatio="none"
 					version="1.1"
-					viewBox="0 0 2560 100"
+					viewBox="0 -0.5 2560 100"
 					x="0"
 					y="0"
 				>
 					<polygon
-						className="fill-white"
+						className={mode === "dark" ? "fill-darker" : "fill-white"}
 						points="2560 0 2560 100 0 100"
 					/>
 				</svg>

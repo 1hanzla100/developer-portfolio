@@ -1,26 +1,30 @@
-import React from "react";
+import React, {useContext} from "react";
 import { SkillBars } from "../portfolio";
 import { Container, Row, Progress, Col } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
 import GreetingLottie from "../components/DisplayLottie";
+import {ThemeContext} from "../styles/theme/theme";
 
 const Proficiency = () => {
+	const {theme , mode} = useContext(ThemeContext);
+	const {oppositeTextColor , oppositeTextColorLighter} = theme;
+
 	return SkillBars && (
 		<Container className="section section-lg">
 			<Fade bottom duration={2000} >
 				<Row>
 					<Col lg="6">
-						<h1 className="h1">Proficiency</h1>
+						<h1 className={`h1 ${oppositeTextColor}`}>Proficiency</h1>
 						{SkillBars.map((skill) => {
 							return (
 								<div
-									className="progress-info"
+									className={"progress-info"}
 									key={skill.Stack}
 								>
-									<div className="progress-label">
-										<span>{skill.Stack}</span>
+									<div className={`progress-label `}>
+										<span className={`${oppositeTextColorLighter}`}>{skill.Stack}</span>
 									</div>
 									<div className="progress-percentage">
 										<span>{skill.progressPercentage}%</span>

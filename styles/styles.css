@@ -1,3 +1,19 @@
 body > div:first-child {
 	overflow-x: hidden;
 }
+
+.textColorLightTheme {
+	color: #fff;
+}
+.textColorDarkTheme{
+	color: #0a0c0d;
+}
+.oppositeTextColorLightTheme{
+	color: #0a0c0d;
+}
+.oppositeTextColorDarkTheme{
+	color: #fff;
+}
+.shape-z-index{
+	z-index: 0!important;
+}

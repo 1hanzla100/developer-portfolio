@@ -30,3 +30,7 @@ body > div:first-child {
 	color: #fff;
 	border: none;
 }
+.GreetingLottie{
+	background: rgba(246, 246, 246, 0.9);
+	border-radius:40px;
+}

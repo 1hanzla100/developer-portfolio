@@ -40,7 +40,7 @@ const Proficiency = () => {
 							);
 						})}
 					</Col>
-					<Col lg="6">
+					<Col lg="6" className={mode === "dark" && "GreetingLottie"}>
 						<GreetingLottie animationPath="/lottie/build.json" />
 					</Col>
 				</Row>

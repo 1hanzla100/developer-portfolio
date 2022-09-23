@@ -35,10 +35,10 @@ const Greetings = () => {
                         <div className="col px-0">
                             <Row>
                                 <Col lg="6">
-                                    <h1 className={`display-3  ${textColor}`}>
+                                    <h1 className={`display-3  ${oppositeTextColor}`}>
                                         {greetings.title + " "}
                                     </h1>
-                                    <p className={`lead ${textColor} `}>
+                                    <p className={`lead ${oppositeTextColor} `}>
                                         {greetings.description}
                                     </p>
                                     <SocialLinks/>

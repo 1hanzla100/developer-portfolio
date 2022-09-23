@@ -17,3 +17,16 @@ body > div:first-child {
 .shape-z-index{
 	z-index: 0!important;
 }
+
+.switchThemeLight , .switchThemeLight:focus{
+	background-color: #fff;
+	transition: all 0.3s ease-in-out;
+	color: #0a0c0d;
+	border: none;
+}
+.switchThemeDark , .switchThemeDark:focus{
+	background-color: #0a0c0d;
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+	border: none;
+}

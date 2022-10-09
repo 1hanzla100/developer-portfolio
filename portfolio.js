@@ -222,7 +222,7 @@ export const projects = [
   {
     name: "Statement Clo.",
     desc: "Implementing a full revamp of a clothing brand shop in Shopify, including custom liquid codes and adjusting the theme.",
-    link: "https://odinboost.com/",
+    link: "https://statement-clo.de/",
   },
   {
     name: "OdinBoost | Game Service Shop",

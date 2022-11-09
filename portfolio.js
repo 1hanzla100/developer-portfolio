@@ -1,33 +1,30 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Ludumo Toni",
+	title: "Hi all, I'm Ludumo",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I'm passionate Full Stack web developer having an experience of web applications with React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, Truffle and Hardhat Framework.",
 	resumeLink:
 		"https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "Ludumo",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://1hanzla100.github.io/",
+	url: " ",
 	linkedin: "https://www.linkedin.com/in/1hanzla100/",
-	github: "https://github.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	facebook: "https://www.facebook.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
+	github: "https://github.com/Ludumo",
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"PASSIONATE FULL STACK DEVELOPER WHO WANTS TO EXPLORE BLOCKCHAIN",
 	data: [
 		{
 			title: "Full Stack Development",
@@ -62,15 +59,7 @@ export const skillsSection = {
 					skillName: "Nextjs",
 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
 				},
-				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
-				},
-				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
-				},
-
+			
 				{
 					skillName: "Redux",
 					fontAwesomeClassname: "logos:redux",
@@ -90,22 +79,12 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
 			],
 			softwareSkills: [
 				// ? Check README To get icon details
 				{
 					skillName: "AWS",
 					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
 				},
 				{
 					skillName: "Heroku",
@@ -120,10 +99,6 @@ export const skillsSection = {
 					fontAwesomeClassname: "akar-icons:github-fill",
 				},
 				{
-					skillName: "Docker",
-					fontAwesomeClassname: "logos:docker-icon",
-				},
-				{
 					skillName: "Github Actions",
 					fontAwesomeClassname: "logos:github-actions",
 				},
@@ -131,14 +106,7 @@ export const skillsSection = {
 					skillName: "Cloudinary",
 					fontAwesomeClassname: "logos:cloudinary",
 				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
+				
 			],
 		},
 		{
@@ -149,10 +117,10 @@ export const skillsSection = {
 					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
 				),
 				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
+					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Moralis, Truffle, Hardhat & Infura"
 				),
 				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+					"⚡ Experience of using Openzeppelin Smart Contract Standards"
 				),
 				emoji(
 					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
@@ -182,6 +150,10 @@ export const skillsSection = {
 					skillName: "Ganache",
 					fontAwesomeClassname: "logos:ganache-icon",
 				},
+				{
+					skillName: "Hardhat",
+					fontAwesomeClassname: "logos:hardhat-icon",
+				},
 			],
 		},
 	],
@@ -190,7 +162,7 @@ export const skillsSection = {
 export const SkillBars = [
 	{
 		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		progressPercentage: "75", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
@@ -204,20 +176,27 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		grade: "Grade A",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		schoolName: "Le Wagon",
+		subHeader: "Full stack Web Development Bootcamp",
+		duration: "July 2021",
+		desc: "Full Stack web development Ruby, Ruby on Rails, JavaScript",
+	},
+	{
+		schoolName: "IronHack",
+		subHeader: "Full stack Web Development Bootcamp",
+		duration: "October 2021",
+		desc: "Full Stack web development JavaScript, React.js, Next.js, Node.js",
+	},
+	{
+		schoolName: "Udemy",
+		subHeader: "Programming, Ethereum & Solidity",
+		duration: "May 2022",
+		desc: "Use Ethereum, Solidity, and Smart Contracts to build production-ready apps based on the blockchain",
 	},
 ];
 
 export const experience = [
-	{
+	/* {
 		role: "Frontend Developer",
 		company: "Duseca Software",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
@@ -248,35 +227,35 @@ export const experience = [
 		companylogo: "/img/icons/common/wapidu.jpg",
 		date: "Sept 2021",
 		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-	},
+	}, */
 ];
 
 export const projects = [
 	{
+		name: "DApp Token Exchange capstone project",
+		desc: "A decentralized cryptocurrency exchange built on ethereum, solidity language.",
+		github: "https://shy-lab-5606.on.fleek.co/",
+	},
+	{
+		name: "Monetary",
+		desc: "crypto wallet interface not connected to any test net",
+		github: "https://monettary.herokuapp.com/users/sign_in",
+	},
+	{
+		name: "Dog BnB",
+		desc: "Become a part-time dog owner, based on airbnb model",
+		github: "https://dogbnb-lewagon.herokuapp.com/",
+	},
+	{
 		name: "developer-portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
-	},
-	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
-	},
-	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
-	},
-	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		desc: "Software Developer Portfolio built with react.js and next.js bootstrap.",
+		github: "https://github.com/Ludumo/developer-portfolio",
+		link: " ",
 	},
 ];
 
 export const feedbacks = [
-	{
+/* 	{
 		name: "John Smith",
 		feedback:
 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
@@ -285,24 +264,24 @@ export const feedbacks = [
 		name: "John Smith",
 		feedback:
 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
+	}, */
 ];
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Ludumo Toni",
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
-	author: "Hanzla Tauqeer",
+	author: "Ludumo Toni",
 	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
 	url: "https://developer-portfolio-1hanzla100.vercel.app",
 	keywords: [
 		"Hanzla",
-		"Hanzla Tauqeer",
+		"Ludumo Toni",
 		"@1hanzla100",
 		"1hanzla100",
 		"Portfolio",
 		"Hanzla Portfolio ",
-		"Hanzla Tauqeer Portfolio",
+		"Ludumo Toni Portfolio",
 	],
 }

@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import classnames from "classnames";
+import Alerts from "./Alert";
 
 import {
   Button,
@@ -16,47 +17,37 @@ import {
   Col,
 } from "reactstrap";
 
-// import .env variables
-
 export const ContactUs = () => {
   const form = useRef();
+  const isSent = React.useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
+    console.log();
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         form.current,
-        "YOUR_PUBLIC_KEY"
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
           console.log(result.text);
+          isSent[1](true);
         },
         (error) => {
           console.log(error.text);
         }
       );
-    window.location.reload(false);
-    alert("Thank you for your message! I will get back to you shortly.");
   };
 
   return (
     <>
       <section className="section section-lg section-shaped">
-        <div className="shape shape-style-2 shape-primary">
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-          <span />
-        </div>
-
+        {/* If the email was sent, show a success message */}
+        {isSent[0] && <Alerts />}
         <form ref={form} onSubmit={sendEmail}>
           <Container>
             <Row className="justify-content-center">

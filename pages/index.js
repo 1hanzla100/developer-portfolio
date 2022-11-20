@@ -11,7 +11,7 @@ const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() =>
   import("../components/GithubProfileCard")
 );
-import { openSource } from "../portfolio";
+import { openSource, showContactUs } from "../portfolio";
 import SEO from "../components/SEO";
 import Contact from "../components/ContactUs.jsx";
 
@@ -25,9 +25,9 @@ export default function Home({ githubProfileData }) {
       <Proficiency />
       <Education />
       <Experience />
-      <Contact />
       <Feedbacks />
       <Projects />
+      {showContactUs ? <Contact /> : null}
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );

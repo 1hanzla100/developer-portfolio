@@ -288,6 +288,9 @@ export const feedbacks = [
 	},
 ];
 
+// option to hide or show the ContactUs component
+export const showContactUs = true;
+
 // See object prototype on SEO.jsx page
 export const seoData = {
 	title: "Hanzla Tauqeer",

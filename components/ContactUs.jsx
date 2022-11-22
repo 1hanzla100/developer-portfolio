@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import classnames from "classnames";
-import Alerts from "./Alert";
+import Alert from "./Alerts";
 
 import {
   Button,
@@ -19,7 +19,19 @@ import {
 
 export const ContactUs = () => {
   const form = useRef();
-  const isSent = React.useState(false);
+  const [alert, setAlert] = React.useState(null);
+
+  const successAlert = {
+    color: "success",
+    icon: "ni ni-like-2",
+    message: " Your message has been sent successfully!",
+  };
+
+  const errorAlert = {
+    color: "danger",
+    icon: "ni ni-bell-55",
+    message: " Oops! Something went wrong. Please try again later.",
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -35,10 +47,11 @@ export const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
-          isSent[1](true);
+          setAlert(successAlert);
         },
         (error) => {
           console.log(error.text);
+          setAlert(errorAlert);
         }
       );
   };
@@ -46,9 +59,14 @@ export const ContactUs = () => {
   return (
     <>
       <section className="section section-lg section-shaped">
-        {/* If the email was sent, show a success message */}
-        {isSent[0] && <Alerts />}
         <form ref={form} onSubmit={sendEmail}>
+          {alert && (
+            <Alert
+              color={alert.color}
+              icon={alert.icon}
+              message={alert.message}
+            />
+          )}
           <Container>
             <Row className="justify-content-center">
               <Col lg="8">
@@ -56,7 +74,7 @@ export const ContactUs = () => {
                   <CardBody className="p-lg-5">
                     <h4 className="mb-1">Want to work with me?</h4>
                     <p className="mt-0">
-                      Your project is very important to me.
+                      Reach out to me using the form below.
                     </p>
                     <FormGroup className={classnames("mt-5", {})}>
                       <InputGroup className="input-group-alternative">

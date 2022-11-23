@@ -9,38 +9,40 @@ const Experience = dynamic(() => import("../containers/Experience"));
 const Projects = dynamic(() => import("../containers/Projects"));
 const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
 const GithubProfileCard = dynamic(() =>
-	import("../components/GithubProfileCard")
+  import("../components/GithubProfileCard")
 );
-import { openSource } from "../portfolio";
+import { openSource, showContactUs } from "../portfolio";
 import SEO from "../components/SEO";
+import Contact from "../components/ContactUs.jsx";
 
 export default function Home({ githubProfileData }) {
-	return (
-		<div>
-			<SEO />
-			<Navigation />
-			<Greetings />
-			<Skills />
-			<Proficiency />
-			<Education />
-			<Experience />
-			<Feedbacks />
-			<Projects />
-			<GithubProfileCard prof={githubProfileData} />
-		</div>
-	);
+  return (
+    <div>
+      <SEO />
+      <Navigation />
+      <Greetings />
+      <Skills />
+      <Proficiency />
+      <Education />
+      <Experience />
+      <Feedbacks />
+      <Projects />
+      {showContactUs ? <Contact /> : null}
+      <GithubProfileCard prof={githubProfileData} />
+    </div>
+  );
 }
 
 Home.prototype = {
-	githubProfileData: PropTypes.object.isRequired,
+  githubProfileData: PropTypes.object.isRequired,
 };
 
 export async function getStaticProps(_) {
-	const githubProfileData = await fetch(
-		`https://api.github.com/users/${openSource.githubUserName}`
-	).then((res) => res.json());
+  const githubProfileData = await fetch(
+    `https://api.github.com/users/${openSource.githubUserName}`
+  ).then((res) => res.json());
 
-	return {
-		props: { githubProfileData },
-	};
+  return {
+    props: { githubProfileData },
+  };
 }

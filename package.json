@@ -1,9 +1,6 @@
 {
 	"name": "developer-portfolio",
 	"version": "1.0.0",
-	"engines": {
-		"node": "18.x"
-	  },
 	"description": "Software Developer Portfolio Template built with react.js bootstrap",
 	"main": "index.js",
 	"repository": "https://github.com/Ludumo/developer-portfolio",

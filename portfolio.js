@@ -1,12 +1,13 @@
 import emoji from "react-easy-emoji";
 
+
 export const greetings = {
 	name: "Ludumo Toni",
 	title: "Hi all, I'm Ludumo",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, Truffle and Hardhat Framework.",
+		"I'm passionate Full Stack web developer having experience building web applications with React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Truffle and Hardhat Framework.",
 	resumeLink:
-		"https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
+		"https://drive.google.com/file/d/1O5iz1HwnqhUhwyj0igEsnbwaAov2zAsj/view?usp=sharing",
 };
 
 export const openSource = {
@@ -16,8 +17,8 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	url: " ",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	url: "http://localhost:3000/",
+	linkedin: "https://www.linkedin.com/in/ludumo-toni/",
 	github: "https://github.com/Ludumo",
 };
 
@@ -95,6 +96,10 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:postgresql",
 				},
 				{
+					skillName: "MongoDB",
+					fontAwesomeClassname: "logos:mongodb",
+				},
+				{
 					skillName: "Github",
 					fontAwesomeClassname: "akar-icons:github-fill",
 				},
@@ -117,7 +122,7 @@ export const skillsSection = {
 					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
 				),
 				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Moralis, Truffle, Hardhat & Infura"
+					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Truffle, Hardhat & Infura"
 				),
 				emoji(
 					"⚡ Experience of using Openzeppelin Smart Contract Standards"
@@ -126,7 +131,7 @@ export const skillsSection = {
 					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
 				),
 				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+					"⚡ Building Dapps with React.js & Solidity using Web3.js,& IPFS"
 				),
 			],
 			softwareSkills: [
@@ -238,7 +243,7 @@ export const projects = [
 	},
 	{
 		name: "Monetary",
-		desc: "crypto wallet interface not connected to any test net",
+		desc: "crypto wallet interface not connected to blockchain",
 		github: "https://monettary.herokuapp.com/users/sign_in",
 	},
 	{
@@ -278,10 +283,7 @@ export const seoData = {
 	keywords: [
 		"Hanzla",
 		"Ludumo Toni",
-		"@1hanzla100",
-		"1hanzla100",
 		"Portfolio",
-		"Hanzla Portfolio ",
 		"Ludumo Toni Portfolio",
 	],
 }

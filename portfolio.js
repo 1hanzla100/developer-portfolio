@@ -16,12 +16,12 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
-	github: "https://github.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	facebook: "https://www.facebook.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
+	url: "https://sagardon.com.np/",
+	linkedin: "https://www.linkedin.com/in/sagardon/",
+	github: "https://github.com/binexploit",
+	instagram: "https://www.instagram.com/parajuli_sagar_",
+	facebook: "https://www.facebook.com/binexploit",
+	twitter: "https://twitter.com/binexploit",
 };
 
 export const skillsSection = {
@@ -204,10 +204,10 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Softwarics",
+		subHeader: "Ethical hacking and Cyber Security",
+		duration: "2022",
+		desc: "Noobie",
 		grade: "Grade A",
 		descBullets: [
 			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
@@ -293,19 +293,19 @@ export const showContactUs = true;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Sagar Parajuli",
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
-	author: "Hanzla Tauqeer",
+	author: "Sagar Parajuli",
 	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	url: "https://developer-portfolio-binexploit.vercel.app",
 	keywords: [
-		"Hanzla",
-		"Hanzla Tauqeer",
-		"@1hanzla100",
-		"1hanzla100",
+		"Sagar",
+		"Sagar Parajuli",
+		"@binexploit",
+		"binexploit",
 		"Portfolio",
-		"Hanzla Portfolio ",
-		"Hanzla Tauqeer Portfolio",
+		"Sagar Portfolio ",
+		"Sagar Parajuli Portfolio",
 	],
 }

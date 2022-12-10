@@ -297,8 +297,8 @@ export const seoData = {
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
 	author: "Aakash Khanal",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	image: "https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-1/310476979_662965435544296_3646372336674621067_n.jpg?stp=dst-jpg_p240x240&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_ohc=YEZ5ch2ULoUAX-nA1nB&_nc_ht=scontent.fktm3-1.fna&oh=00_AfB6fnjDVOnMiEXgAZlwx-LfVgyhHKTQjB12Hs2aFjQasw&oe=6399E287",
+	url: "https://scontent.fktm3-1.fna.fbcdn.net/v/t39.30808-1/310476979_662965435544296_3646372336674621067_n.jpg?stp=dst-jpg_p240x240&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_ohc=YEZ5ch2ULoUAX-nA1nB&_nc_ht=scontent.fktm3-1.fna&oh=00_AfB6fnjDVOnMiEXgAZlwx-LfVgyhHKTQjB12Hs2aFjQasw&oe=6399E287",
 	keywords: [
 		"Hanzla",
 		"Hanzla Tauqeer",

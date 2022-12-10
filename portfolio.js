@@ -10,7 +10,7 @@ export const greetings = {
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "binexploit",
 };
 
 export const contact = {};

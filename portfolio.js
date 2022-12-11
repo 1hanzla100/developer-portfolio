@@ -204,9 +204,9 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
+		schoolName: "Softwarica College of IT and E-Commerse",
+		subHeader: "Cyber Security and Ethical Hacking",
+		duration: "2022 - 2025",
 		desc: "Participated in the research of XXX and published 3 papers.",
 		grade: "Grade A",
 		descBullets: [

@@ -1,27 +1,27 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Aakash Khanal",
+	title: "Hi all, I'm Aakash",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I am a Cyber Security Student",
 	resumeLink:
-		"https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
+		"#",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "https://github.com/aakash193",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
-	github: "https://github.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	facebook: "https://www.facebook.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
+	url: "https://github.com/aakash193",
+	linkedin: "#",
+	github: "https://github.com/aakash193",
+	instagram: "https://www.instagram.com/aakash_khanal22/",
+	facebook: "https://www.facebook.com/kapildev911",
+	twitter: "#",
 };
 
 export const skillsSection = {
@@ -204,9 +204,9 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
+		schoolName: "Softwarica College of IT and E-Commerce",
+		subHeader: "Cyber Security and Ethical Hacking",
+		duration: "2022 - 2025",
 		desc: "Participated in the research of XXX and published 3 papers.",
 		grade: "Grade A",
 		descBullets: [
@@ -293,12 +293,12 @@ export const showContactUs = true;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Aakash khanall",
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
-	author: "Hanzla Tauqeer",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	author: "Aakash Khanal",
+	image: "https://github.com/aakash193",
+	url: "https://github.com/aakash193",
 	keywords: [
 		"Hanzla",
 		"Hanzla Tauqeer",

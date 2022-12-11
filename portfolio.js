@@ -297,8 +297,8 @@ export const seoData = {
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
 	author: "Aakash Khanal",
-	image: "https://github.com/account",
-	url: "https://github.com/account",
+	image: "https://github.com/aakash193",
+	url: "https://github.com/aakash193",
 	keywords: [
 		"Hanzla",
 		"Hanzla Tauqeer",

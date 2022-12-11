@@ -27,18 +27,18 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"Peneration Testing , CTF , Bug Finding , Backend , Frontend",
 	data: [
 		{
-			title: "Full Stack Development",
+			title: "Programming and Coding",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Building Hacking Tools with Programming"
 				),
-				emoji("⚡ Building responsive static websites using Next.js"),
+				emoji("⚡ Building responsive static websites "),
 				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
+					"⚡ Building Security Software using C++ and python"
 				),
 			],
 			softwareSkills: [
@@ -89,12 +89,12 @@ export const skillsSection = {
 			title: "Cloud Infra-Architecture",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
+				emoji("⚡ working on multiple cloud platforms"),
 				emoji(
 					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
 				),
 				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+					"⚡ Working on Network Security and vulnerabilities"
 				),
 			],
 			softwareSkills: [
@@ -152,7 +152,7 @@ export const skillsSection = {
 					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
 				),
 				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+					"⚡ Working on Openzeppelin Smart Contract Standards & Chainlink Oracles"
 				),
 				emoji(
 					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
@@ -189,16 +189,16 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
+		Stack: "Networking", //Insert stack or technology you have experience in
 		progressPercentage: "90", //Insert relative proficiency in percentage
 	},
 	{
-		Stack: "Backend",
-		progressPercentage: "70",
+		Stack: "System Security",
+		progressPercentage: "80",
 	},
 	{
-		Stack: "Programming",
-		progressPercentage: "60",
+		Stack: "Tools Development",
+		progressPercentage: "70",
 	},
 ];
 
@@ -207,49 +207,49 @@ export const educationInfo = [
 		schoolName: "Softwarica College of IT and E-Commerse",
 		subHeader: "Cyber Security and Ethical Hacking",
 		duration: "2022 - 2025",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		desc: "Participated in the CTF program and Network Security Research",
 		grade: "Grade A",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"MY Team won the Nation CTF complitetion of 2023",
+			"Our Network Security Research got gold medal from College",
 		],
 	},
 ];
 
-export const experience = [
-	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
-	},
-	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
-	},
-	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-	},
-];
+// export const experience = [
+// 	{
+// 		role: "Frontend Developer",
+// 		company: "Duseca Software",
+// 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
+// 		date: "Apr 2022 – Jun 2022",
+// 		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+// 	},
+// 	{
+// 		role: "API Engineer",
+// 		company: "Duseca Software",
+// 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
+// 		date: "Jan 2022 – Mar 2022",
+// 		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+// 		// descBullets: [
+// 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+// 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+// 		// ],
+// 	},
+// 	{
+// 		role: "Full Stack Developer",
+// 		company: "Bleed-AI",
+// 		companylogo: "/img/icons/common/bleedAI.jpg",
+// 		date: "Sept 2021 - Oct 2021",
+// 		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+// 	},
+// 	{
+// 		role: "Backend Developer",
+// 		company: "Wapidu",
+// 		companylogo: "/img/icons/common/wapidu.jpg",
+// 		date: "Sept 2021",
+// 		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+// 	},
+// ];
 
 export const projects = [
 	{
@@ -273,20 +273,20 @@ export const projects = [
 		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
 		github: "https://github.com/1hanzla100/Django-ecommerce",
 	},
-];
+// ];
 
-export const feedbacks = [
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-];
+// export const feedbacks = [
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// ];
 
 // option to hide or show the ContactUs component
 export const showContactUs = true;

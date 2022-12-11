@@ -297,7 +297,7 @@ export const seoData = {
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
 	author: "Sagar Parajuli",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+	image: "https://avatars.githubusercontent.com/u/53845697?v=4",
 	url: "https://developer-portfolio-binexploit.vercel.app",
 	keywords: [
 		"Sagar",

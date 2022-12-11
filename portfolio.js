@@ -293,10 +293,19 @@ export const showContactUs = true;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Aakash Khanal",
+	title: "Hanzla Tauqeer",
 	description:
-		"A Cyber Securty Student",
-	author: "Aakash Khanal",
-	image: "https://github.com/account",
-	url: "https://github.com/aakash193",
+		"A passionate Full Stack Web Developer and Blockchain Developer.",
+	author: "Hanzla Tauqeer",
+	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	keywords: [
+		"Hanzla",
+		"Hanzla Tauqeer",
+		"@1hanzla100",
+		"1hanzla100",
+		"Portfolio",
+		"Hanzla Portfolio ",
+		"Hanzla Tauqeer Portfolio",
+	],
 }

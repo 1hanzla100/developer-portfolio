@@ -273,7 +273,7 @@ export const projects = [
 		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
 		github: "https://github.com/1hanzla100/Django-ecommerce",
 	},
-// ];
+];
 
 // export const feedbacks = [
 // 	{

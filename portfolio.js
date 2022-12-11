@@ -1,8 +1,8 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Aakash Khanal",
+	title: "Hi all, I'm Aakash",
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
 	resumeLink:
@@ -10,7 +10,7 @@ export const greetings = {
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "aakash193",
 };
 
 export const contact = {};
@@ -297,7 +297,7 @@ export const seoData = {
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
 	author: "Hanzla Tauqeer",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+	image: "https://avatars.githubusercontent.com/u/89975560?v=4",
 	url: "https://developer-portfolio-1hanzla100.vercel.app",
 	keywords: [
 		"Hanzla",

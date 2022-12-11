@@ -204,9 +204,9 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
+		schoolName: "Softwarica College of IT and E-Commerce",
+		subHeader: "Cyber Security and Ethical Hacking",
+		duration: "2022 - 2025",
 		desc: "Participated in the research of XXX and published 3 papers.",
 		grade: "Grade A",
 		descBullets: [
@@ -297,9 +297,6 @@ export const seoData = {
 	description:
 		"A Cyber Securty Student",
 	author: "Aakash Khanal",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
-	keywords: [
-,
-	],
+	image: "https://github.com/account",
+	url: "https://github.com/aakash193",
 }

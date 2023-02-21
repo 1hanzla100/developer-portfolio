@@ -1,5 +1,5 @@
-import { UncontrolledAlert } from "reactstrap";
-import React from "react";
+import { UncontrolledAlert } from 'reactstrap';
+import React from 'react';
 
 const Alert = ({ message, color, icon }) => {
   return (

@@ -4926,6 +4926,11 @@
     "eslint-plugin-react" "^7.23.1"
     "eslint-plugin-react-hooks" "^4.2.0"
 
+"eslint-config-prettier@^8.6.0":
+  "integrity" "sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA=="
+  "resolved" "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-8.6.0.tgz"
+  "version" "8.6.0"
+
 "eslint-config-react-app@^6.0.0":
   "integrity" "sha512-bpoAAC+YRfzq0dsTk+6v9aHm/uqnDwayNAXleMypGl6CpxI9oXXscVHo4fk3eJPIn+rsbtNetB4r/ZIidFIE8A=="
   "resolved" "https://registry.npmjs.org/eslint-config-react-app/-/eslint-config-react-app-6.0.0.tgz"
@@ -9750,10 +9755,10 @@
   "resolved" "https://registry.npmjs.org/prepend-http/-/prepend-http-1.0.4.tgz"
   "version" "1.0.4"
 
-"prettier@^2.1.2":
-  "integrity" "sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g=="
-  "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.7.1.tgz"
-  "version" "2.7.1"
+"prettier@^2.1.2", "prettier@2.8.4":
+  "integrity" "sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw=="
+  "resolved" "https://registry.npmjs.org/prettier/-/prettier-2.8.4.tgz"
+  "version" "2.8.4"
 
 "pretty-bytes@^5.3.0":
   "integrity" "sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg=="

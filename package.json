@@ -10,7 +10,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint && prettier --check .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@apollo/client": "^3.3.21",
@@ -40,6 +41,8 @@
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "2.8.4"
   }
 }

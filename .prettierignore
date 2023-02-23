@@ -1,0 +1,6 @@
+public/lottie/
+.next
+.vscode
+./dist
+styles/argon-design-system-react.css
+styles/vendor/**/*.css

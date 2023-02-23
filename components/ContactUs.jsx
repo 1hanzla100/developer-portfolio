@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import classnames from "classnames";
-import Alert from "./Alerts";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import classnames from 'classnames';
+import Alert from './Alerts';
 
 import {
   Button,
@@ -15,22 +15,22 @@ import {
   Container,
   Row,
   Col,
-} from "reactstrap";
+} from 'reactstrap';
 
 export const ContactUs = () => {
   const form = useRef();
   const [alert, setAlert] = React.useState(null);
 
   const successAlert = {
-    color: "success",
-    icon: "ni ni-like-2",
-    message: " Your message has been sent successfully!",
+    color: 'success',
+    icon: 'ni ni-like-2',
+    message: ' Your message has been sent successfully!',
   };
 
   const errorAlert = {
-    color: "danger",
-    icon: "ni ni-bell-55",
-    message: " Oops! Something went wrong. Please try again later.",
+    color: 'danger',
+    icon: 'ni ni-bell-55',
+    message: ' Oops! Something went wrong. Please try again later.',
   };
 
   const sendEmail = (e) => {
@@ -76,7 +76,7 @@ export const ContactUs = () => {
                     <p className="mt-0">
                       Reach out to me using the form below.
                     </p>
-                    <FormGroup className={classnames("mt-5", {})}>
+                    <FormGroup className={classnames('mt-5', {})}>
                       <InputGroup className="input-group-alternative">
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>

@@ -1,6 +1,17 @@
 import emoji from 'react-easy-emoji';
+import {
+  EducationType,
+  ExperienceType,
+  FeedbackType,
+  ProjectType,
+  SkillsSectionType,
+  SkillBarsType,
+  SEODataType,
+  SocialLinksType,
+  GreetingsType,
+} from './types/sections';
 
-export const greetings = {
+export const greetings: GreetingsType = {
   name: 'Hanzla Tauqeer',
   title: "Hi all, I'm Hanzla",
   description:
@@ -15,7 +26,7 @@ export const openSource = {
 
 export const contact = {};
 
-export const socialLinks = {
+export const socialLinks: SocialLinksType = {
   url: 'https://1hanzla100.github.io/',
   linkedin: 'https://www.linkedin.com/in/1hanzla100/',
   github: 'https://github.com/1hanzla100',
@@ -24,7 +35,7 @@ export const socialLinks = {
   twitter: 'https://twitter.com/1hanzla100',
 };
 
-export const skillsSection = {
+export const skillsSection: SkillsSectionType = {
   title: 'What I do',
   subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   data: [
@@ -182,7 +193,7 @@ export const skillsSection = {
   ],
 };
 
-export const SkillBars = [
+export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
     progressPercentage: '90', //Insert relative proficiency in percentage
@@ -197,7 +208,7 @@ export const SkillBars = [
   },
 ];
 
-export const educationInfo = [
+export const educationInfo: EducationType[] = [
   {
     schoolName: 'Harvard University',
     subHeader: 'Master of Science in Computer Science',
@@ -211,7 +222,7 @@ export const educationInfo = [
   },
 ];
 
-export const experience = [
+export const experience: ExperienceType[] = [
   {
     role: 'Frontend Developer',
     company: 'Duseca Software',
@@ -246,7 +257,7 @@ export const experience = [
   },
 ];
 
-export const projects = [
+export const projects: ProjectType[] = [
   {
     name: 'developer-portfolio',
     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
@@ -270,7 +281,7 @@ export const projects = [
   },
 ];
 
-export const feedbacks = [
+export const feedbacks: FeedbackType[] = [
   {
     name: 'John Smith',
     feedback:
@@ -284,10 +295,10 @@ export const feedbacks = [
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs = true;
+export const showContactUs: boolean = true;
 
-// See object prototype on SEO.jsx page
-export const seoData = {
+// See object prototype on /types/section.ts page
+export const seoData: SEODataType = {
   title: 'Hanzla Tauqeer',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',

@@ -1,7 +1,13 @@
-import { UncontrolledAlert } from 'reactstrap';
 import React from 'react';
+import { UncontrolledAlert } from 'reactstrap';
 
-const Alert = ({ message, color, icon }) => {
+type Props = {
+  message: string;
+  color: string;
+  icon: string;
+};
+
+const Alert = ({ message, color, icon }: Props) => {
   return (
     // this should reappear every time the user clicks on the button
     <UncontrolledAlert color={color}>

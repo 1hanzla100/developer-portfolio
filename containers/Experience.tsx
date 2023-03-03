@@ -1,8 +1,7 @@
 import React from 'react';
 import { experience } from '../portfolio';
 import { Container, Row } from 'reactstrap';
-
-import { Fade } from 'react-reveal';
+import Fade from 'react-reveal/Fade';
 
 import ExperienceCard from '../components/ExperienceCard';
 

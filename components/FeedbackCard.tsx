@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardBody, Badge } from 'reactstrap';
+import { Card, CardBody } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import { FeedbackType } from '../types/sections';
 

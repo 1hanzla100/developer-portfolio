@@ -26,7 +26,7 @@ export type GreetingsType = {
 
 type SoftwareSkillType = {
   skillName: string;
-  fontAwesomeClassname: string;
+  fontAwesomeClassName: string;
 };
 
 type SkillType = {
@@ -65,7 +65,7 @@ export type EducationType = {
 export type ExperienceType = {
   role: string;
   company: string;
-  companylogo: string;
+  companyLogo: string;
   date: string;
   desc: string;
   descBullets?: string[];

@@ -52,44 +52,44 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         {
           skillName: 'HTML-5',
-          fontAwesomeClassname: 'vscode-icons:file-type-html',
+          fontAwesomeClassName: 'vscode-icons:file-type-html',
         },
         {
           skillName: 'CSS-3',
-          fontAwesomeClassname: 'vscode-icons:file-type-css',
+          fontAwesomeClassName: 'vscode-icons:file-type-css',
         },
         {
           skillName: 'JavaScript',
-          fontAwesomeClassname: 'logos:javascript',
+          fontAwesomeClassName: 'logos:javascript',
         },
         {
           skillName: 'Reactjs',
-          fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
+          fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
         },
         {
           skillName: 'Nextjs',
-          fontAwesomeClassname: 'vscode-icons:file-type-light-next',
+          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
         },
         {
           skillName: 'Python',
-          fontAwesomeClassname: 'logos:python',
+          fontAwesomeClassName: 'logos:python',
         },
         {
           skillName: 'Django',
-          fontAwesomeClassname: 'vscode-icons:file-type-django',
+          fontAwesomeClassName: 'vscode-icons:file-type-django',
         },
 
         {
           skillName: 'Redux',
-          fontAwesomeClassname: 'logos:redux',
+          fontAwesomeClassName: 'logos:redux',
         },
         {
           skillName: 'NPM',
-          fontAwesomeClassname: 'logos:npm-icon',
+          fontAwesomeClassName: 'logos:npm-icon',
         },
         {
           skillName: 'Yarn',
-          fontAwesomeClassname: 'logos:yarn',
+          fontAwesomeClassName: 'logos:yarn',
         },
       ],
     },
@@ -109,43 +109,43 @@ export const skillsSection: SkillsSectionType = {
         // ? Check README To get icon details
         {
           skillName: 'AWS',
-          fontAwesomeClassname: 'logos:aws',
+          fontAwesomeClassName: 'logos:aws',
         },
         {
           skillName: 'Azure',
-          fontAwesomeClassname: 'logos:microsoft-azure',
+          fontAwesomeClassName: 'logos:microsoft-azure',
         },
         {
           skillName: 'Heroku',
-          fontAwesomeClassname: 'logos:heroku-icon',
+          fontAwesomeClassName: 'logos:heroku-icon',
         },
         {
           skillName: 'PostgreSQL',
-          fontAwesomeClassname: 'logos:postgresql',
+          fontAwesomeClassName: 'logos:postgresql',
         },
         {
           skillName: 'Github',
-          fontAwesomeClassname: 'akar-icons:github-fill',
+          fontAwesomeClassName: 'akar-icons:github-fill',
         },
         {
           skillName: 'Docker',
-          fontAwesomeClassname: 'logos:docker-icon',
+          fontAwesomeClassName: 'logos:docker-icon',
         },
         {
           skillName: 'Github Actions',
-          fontAwesomeClassname: 'logos:github-actions',
+          fontAwesomeClassName: 'logos:github-actions',
         },
         {
           skillName: 'Cloudinary',
-          fontAwesomeClassname: 'logos:cloudinary',
+          fontAwesomeClassName: 'logos:cloudinary',
         },
         {
           skillName: 'Nginx',
-          fontAwesomeClassname: 'logos:nginx',
+          fontAwesomeClassName: 'logos:nginx',
         },
         {
           skillName: 'Sentry',
-          fontAwesomeClassname: 'logos:sentry-icon',
+          fontAwesomeClassName: 'logos:sentry-icon',
         },
       ],
     },
@@ -170,23 +170,23 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         {
           skillName: 'Ethereum',
-          fontAwesomeClassname: 'logos:ethereum',
+          fontAwesomeClassName: 'logos:ethereum',
         },
         {
           skillName: 'Solidity',
-          fontAwesomeClassname: 'logos:solidity',
+          fontAwesomeClassName: 'logos:solidity',
         },
         {
           skillName: 'Web3js',
-          fontAwesomeClassname: 'logos:web3js',
+          fontAwesomeClassName: 'logos:web3js',
         },
         {
           skillName: 'Metamask',
-          fontAwesomeClassname: 'logos:metamask-icon',
+          fontAwesomeClassName: 'logos:metamask-icon',
         },
         {
           skillName: 'Ganache',
-          fontAwesomeClassname: 'logos:ganache-icon',
+          fontAwesomeClassName: 'logos:ganache-icon',
         },
       ],
     },
@@ -226,14 +226,14 @@ export const experience: ExperienceType[] = [
   {
     role: 'Frontend Developer',
     company: 'Duseca Software',
-    companylogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
     date: 'Apr 2022 – Jun 2022',
     desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
   },
   {
     role: 'API Engineer',
     company: 'Duseca Software',
-    companylogo: '/img/icons/common/dusecaSoftware.jpg',
+    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
     date: 'Jan 2022 – Mar 2022',
     desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
     // descBullets: [
@@ -244,14 +244,14 @@ export const experience: ExperienceType[] = [
   {
     role: 'Full Stack Developer',
     company: 'Bleed-AI',
-    companylogo: '/img/icons/common/bleedAI.jpg',
+    companyLogo: '/img/icons/common/bleedAI.jpg',
     date: 'Sept 2021 - Oct 2021',
     desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
   },
   {
     role: 'Backend Developer',
     company: 'Wapidu',
-    companylogo: '/img/icons/common/wapidu.jpg',
+    companyLogo: '/img/icons/common/wapidu.jpg',
     date: 'Sept 2021',
     desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
   },

@@ -31,7 +31,7 @@ const Skills = () => {
                             id={skill.skillName.replace(/\s/g, '')}
                           >
                             <Icon
-                              icon={skill.fontAwesomeClassname}
+                              icon={skill.fontAwesomeClassName}
                               data-inline="false"
                             ></Icon>
                           </div>

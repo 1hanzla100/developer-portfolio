@@ -11,7 +11,7 @@ import Fade from 'react-reveal/Fade';
 import { ExperienceType } from '../types/sections';
 
 const ExperienceCard = ({
-  companylogo,
+  companyLogo,
   company,
   role,
   date,
@@ -27,7 +27,7 @@ const ExperienceCard = ({
         >
           <CardBody className="">
             <img
-              src={companylogo}
+              src={companyLogo}
               style={{
                 objectFit: 'cover',
                 left: 0,
@@ -40,7 +40,7 @@ const ExperienceCard = ({
                 borderRadius: '50%',
               }}
               className="shadow mb-3"
-              alt={companylogo}
+              alt={companyLogo}
             />
             <CardTitle tag="h4" className="mb-2">
               {company}

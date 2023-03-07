@@ -39,6 +39,7 @@
     "sharp": "^0.31.3"
   },
   "devDependencies": {
+    "@types/babel__core": "^7.20.0",
     "@types/headroom.js": "^0.12.2",
     "@types/node": "^18.14.1",
     "@types/react": "^18.0.28",

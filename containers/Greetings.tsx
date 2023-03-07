@@ -1,16 +1,15 @@
 import React, { useEffect } from 'react';
 import { greetings } from '../portfolio';
-
 import { Button, Container, Row, Col } from 'reactstrap';
-
 import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
 
 const Greetings = () => {
   useEffect(() => {
     document.documentElement.scrollTop = 0;
-    document.scrollingElement.scrollTop = 0;
+    document.scrollingElement!.scrollTop = 0;
   });
+
   return (
     <main>
       <div className="position-relative">
@@ -35,18 +34,20 @@ const Greetings = () => {
                   </h1>
                   <p className="lead text-white">{greetings.description}</p>
                   <SocialLinks />
-                  <div className="btn-wrapper my-4">
-                    <Button
-                      className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                      color="default"
-                      href={greetings.resumeLink}
-                    >
-                      <span className="btn-inner--icon mr-1">
-                        <i className="fa fa-file" />
-                      </span>
-                      <span className="btn-inner--text">See My Resume</span>
-                    </Button>
-                  </div>
+                  {greetings.resumeLink && (
+                    <div className="btn-wrapper my-4">
+                      <Button
+                        className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                        color="default"
+                        href={greetings.resumeLink}
+                      >
+                        <span className="btn-inner--icon mr-1">
+                          <i className="fa fa-file" />
+                        </span>
+                        <span className="btn-inner--text">See My Resume</span>
+                      </Button>
+                    </div>
+                  )}
                 </Col>
                 <Col lg="6">
                   <GreetingLottie animationPath="/lottie/coding.json" />

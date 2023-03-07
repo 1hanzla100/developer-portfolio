@@ -1,11 +1,9 @@
 import React from 'react';
-
 import { Card, Col, Row, Container } from 'reactstrap';
+import { GithubUserType } from '../types';
+import SocialLinks from './SocialLinks';
 
-import SocialLinks from '../components/SocialLinks';
-import Image from 'next/image';
-
-const GithubProfileCard = ({ prof }) => {
+const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
   return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
       <Container className="">
@@ -13,7 +11,7 @@ const GithubProfileCard = ({ prof }) => {
           <Row className="">
             <Col className="order-lg-2" lg="4">
               <img
-                src={prof.avatar_url}
+                src={avatar_url}
                 style={{ width: '200px' }}
                 alt=""
                 className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
@@ -25,10 +23,10 @@ const GithubProfileCard = ({ prof }) => {
                 DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR
                 ALL
               </p>
-              <p className="text-white mt-3">{prof.bio}</p>
+              <p className="text-white mt-3">{bio}</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
                 <i className="ni ni-pin-3 text-info mr-2" />
-                {prof.location}
+                {location}
               </div>
               <SocialLinks />
             </Col>

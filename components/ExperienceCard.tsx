@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   Card,
   CardBody,
@@ -8,10 +7,17 @@ import {
   CardText,
   Col,
 } from 'reactstrap';
+import Fade from 'react-reveal/Fade';
+import { ExperienceType } from '../types/sections';
 
-import { Fade } from 'react-reveal';
-
-const ExperienceCard = ({ data }) => {
+const ExperienceCard = ({
+  companyLogo,
+  company,
+  role,
+  date,
+  desc,
+  descBullets,
+}: ExperienceType) => {
   return (
     <Col lg="6">
       <Fade left duration={2000}>
@@ -21,7 +27,7 @@ const ExperienceCard = ({ data }) => {
         >
           <CardBody className="">
             <img
-              src={data.companylogo}
+              src={companyLogo}
               style={{
                 objectFit: 'cover',
                 left: 0,
@@ -34,20 +40,20 @@ const ExperienceCard = ({ data }) => {
                 borderRadius: '50%',
               }}
               className="shadow mb-3"
-              alt={data.companylogo}
+              alt={companyLogo}
             />
             <CardTitle tag="h4" className="mb-2">
-              {data.company}
+              {company}
             </CardTitle>
             <CardSubtitle tag="h5" className="mb-2">
-              {data.role}
+              {role}
             </CardSubtitle>
-            <CardSubtitle>{data.date}</CardSubtitle>
+            <CardSubtitle>{date}</CardSubtitle>
             <CardText tag="div" className="description my-3 text-left">
-              {data.desc}
+              {desc}
               <ul>
-                {data.descBullets
-                  ? data.descBullets.map((desc) => {
+                {descBullets
+                  ? descBullets.map((desc) => {
                       return <li key={desc}>{desc}</li>;
                     })
                   : null}

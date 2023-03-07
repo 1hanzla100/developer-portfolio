@@ -22,7 +22,7 @@ const Education = () => {
             {educationInfo.map((info) => {
               return (
                 <Col className="order-lg-1" lg="6" key={info.schoolName}>
-                  <EducationCard education={info} />
+                  <EducationCard {...info} />
                 </Col>
               );
             })}

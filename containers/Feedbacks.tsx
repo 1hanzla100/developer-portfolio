@@ -2,7 +2,6 @@ import { feedbacks } from '../portfolio';
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import FeedbackCard from '../components/FeedbackCard';
-import { Fade } from 'react-reveal';
 
 const Feedbacks = () => {
   return (
@@ -23,7 +22,7 @@ const Feedbacks = () => {
             {feedbacks.map((data, i) => {
               return (
                 <Col key={i} lg={6}>
-                  <FeedbackCard data={data} />
+                  <FeedbackCard {...data} />
                 </Col>
               );
             })}

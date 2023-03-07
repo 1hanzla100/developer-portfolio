@@ -1,29 +1,36 @@
 import React from 'react';
 import { Card, CardBody, Badge } from 'reactstrap';
+import { EducationType } from '../types/sections';
+import Fade from 'react-reveal/Fade';
 
-import { Fade } from 'react-reveal';
-
-const EducationCard = ({ education }) => {
+const EducationCard = ({
+  schoolName,
+  subHeader,
+  duration,
+  desc,
+  grade,
+  descBullets,
+}: EducationType) => {
   return (
     <Fade left duration={2000}>
       <Card className="card-lift--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
             <div className="pl-4">
-              <h5 className="text-info">{education.schoolName}</h5>
-              <h6>{education.subHeader}</h6>
+              <h5 className="text-info">{schoolName}</h5>
+              <h6>{subHeader}</h6>
               <Badge color="info" className="mr-1">
-                {education.duration}
+                {duration}
               </Badge>
-              {education.grade && (
+              {grade && (
                 <Badge color="primary" className="mr-1">
-                  {education.grade}
+                  {grade}
                 </Badge>
               )}
-              <p className="description mt-3">{education.desc}</p>
+              <p className="description mt-3">{desc}</p>
               <ul>
-                {education.descBullets
-                  ? education.descBullets.map((desc) => {
+                {descBullets
+                  ? descBullets.map((desc) => {
                       return <li key={desc}>{desc}</li>;
                     })
                   : null}

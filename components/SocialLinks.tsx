@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { Button } from 'reactstrap';
-
 import { socialLinks } from '../portfolio';
 
 const SocialLinks = () => {

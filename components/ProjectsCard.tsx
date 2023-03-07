@@ -1,10 +1,9 @@
 import React from 'react';
-
 import { Card, CardBody, Col, Button } from 'reactstrap';
+import Fade from 'react-reveal/Fade';
+import { ProjectType } from '../types/sections';
 
-import { Fade } from 'react-reveal';
-
-const ProjectsCard = ({ data }) => {
+const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
       <Fade bottom duration={2000}>
@@ -12,13 +11,13 @@ const ProjectsCard = ({ data }) => {
           <CardBody>
             <div className="d-flex px-3">
               <div className="pl-4">
-                <h3>{data.name}</h3>
-                <p className="description mt-3">{data.desc}</p>
-                {data.github ? (
+                <h3>{name}</h3>
+                <p className="description mt-3">{desc}</p>
+                {github ? (
                   <Button
                     className="btn-icon"
                     color="github"
-                    href={data.github}
+                    href={github}
                     target="_blank"
                     rel="noopener"
                     aria-label="Github"
@@ -28,11 +27,11 @@ const ProjectsCard = ({ data }) => {
                     </span>
                   </Button>
                 ) : null}
-                {data.link ? (
+                {link ? (
                   <Button
                     className="btn-icon"
                     color="success"
-                    href={data.link}
+                    href={link}
                     target="_blank"
                     rel="noopener"
                     aria-label="Twitter"

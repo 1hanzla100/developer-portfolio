@@ -52,44 +52,44 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         {
           skillName: 'HTML-5',
-          fontAwesomeClassName: 'vscode-icons:file-type-html',
+          iconifyTag: 'vscode-icons:file-type-html',
         },
         {
           skillName: 'CSS-3',
-          fontAwesomeClassName: 'vscode-icons:file-type-css',
+          iconifyTag: 'vscode-icons:file-type-css',
         },
         {
           skillName: 'JavaScript',
-          fontAwesomeClassName: 'logos:javascript',
+          iconifyTag: 'logos:javascript',
         },
         {
           skillName: 'Reactjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
+          iconifyTag: 'vscode-icons:file-type-reactjs',
         },
         {
           skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
+          iconifyTag: 'vscode-icons:file-type-light-next',
         },
         {
           skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
+          iconifyTag: 'logos:python',
         },
         {
           skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
+          iconifyTag: 'vscode-icons:file-type-django',
         },
 
         {
           skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
+          iconifyTag: 'logos:redux',
         },
         {
           skillName: 'NPM',
-          fontAwesomeClassName: 'logos:npm-icon',
+          iconifyTag: 'logos:npm-icon',
         },
         {
           skillName: 'Yarn',
-          fontAwesomeClassName: 'logos:yarn',
+          iconifyTag: 'logos:yarn',
         },
       ],
     },
@@ -109,43 +109,43 @@ export const skillsSection: SkillsSectionType = {
         // ? Check README To get icon details
         {
           skillName: 'AWS',
-          fontAwesomeClassName: 'logos:aws',
+          iconifyTag: 'logos:aws',
         },
         {
           skillName: 'Azure',
-          fontAwesomeClassName: 'logos:microsoft-azure',
+          iconifyTag: 'logos:microsoft-azure',
         },
         {
           skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
+          iconifyTag: 'logos:heroku-icon',
         },
         {
           skillName: 'PostgreSQL',
-          fontAwesomeClassName: 'logos:postgresql',
+          iconifyTag: 'logos:postgresql',
         },
         {
           skillName: 'Github',
-          fontAwesomeClassName: 'akar-icons:github-fill',
+          iconifyTag: 'akar-icons:github-fill',
         },
         {
           skillName: 'Docker',
-          fontAwesomeClassName: 'logos:docker-icon',
+          iconifyTag: 'logos:docker-icon',
         },
         {
           skillName: 'Github Actions',
-          fontAwesomeClassName: 'logos:github-actions',
+          iconifyTag: 'logos:github-actions',
         },
         {
           skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
+          iconifyTag: 'logos:cloudinary',
         },
         {
           skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
+          iconifyTag: 'logos:nginx',
         },
         {
           skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
+          iconifyTag: 'logos:sentry-icon',
         },
       ],
     },
@@ -170,23 +170,23 @@ export const skillsSection: SkillsSectionType = {
       softwareSkills: [
         {
           skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
+          iconifyTag: 'logos:ethereum',
         },
         {
           skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
+          iconifyTag: 'logos:solidity',
         },
         {
           skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
+          iconifyTag: 'logos:web3js',
         },
         {
           skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
+          iconifyTag: 'logos:metamask-icon',
         },
         {
           skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
+          iconifyTag: 'logos:ganache-icon',
         },
       ],
     },

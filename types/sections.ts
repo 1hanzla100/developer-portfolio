@@ -26,7 +26,7 @@ export type GreetingsType = {
 
 type SoftwareSkillType = {
   skillName: string;
-  fontAwesomeClassName: string;
+  iconifyTag: string;
 };
 
 type SkillType = {

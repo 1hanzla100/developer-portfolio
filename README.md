@@ -63,7 +63,7 @@ $ yarn
 
 4. Edit `portfolio.js`
 
-5. Start's development server
+5. Start your development server
 
 ```bash
 $ yarn dev

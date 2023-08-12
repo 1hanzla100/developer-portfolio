@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade';
 import GreetingLottie from '../components/DisplayLottie';
 
 const Proficiency = () => {
+  return null;
   return (
     SkillBars && (
       <Container className="section section-lg">

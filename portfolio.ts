@@ -11,77 +11,91 @@ import {
   GreetingsType,
 } from './types/sections';
 
+const yearsOfExperience = new Date().getFullYear() - 2015;
+
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
-  description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
-  resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+  name: 'Simone Mosi',
+  title: "Hi all, I'm Simone",
+  description: `Software Engineer with ${yearsOfExperience}+ years of experience specializing in System Design, Backend Development and Security`,
+  resumeLink: undefined,
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'simomosi',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  // url: 'https://simomosi.github.io/',
+  github: 'https://github.com/simomosi',
+  linkedin: 'https://www.linkedin.com/in/simonemosi/',
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: 'What I am',
+  subTitle: 'Computer Science Enthusiast',
   data: [
     {
-      title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      title: 'Software Engineer',
+      lottieAnimationFile: '/extra_lottie/business-meeting.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Talk with People'),
+        emoji('⚡ Collect Complete and Accurate Software Requirements'),
+        emoji('⚡ Design Systems'),
+        emoji('⚡ Guide my Team to our goal'),
+        emoji('⚡ Write clear documentation'),
       ],
       softwareSkills: [
         {
-          skillName: 'HTML-5',
-          iconifyTag: 'vscode-icons:file-type-html',
+          skillName: 'UML',
+          iconifyTag: 'fa-solid:project-diagram',
         },
         {
-          skillName: 'CSS-3',
-          iconifyTag: 'vscode-icons:file-type-css',
+          skillName: 'Jira',
+          iconifyTag: 'logos:jira',
+        },
+        {
+          skillName: 'LaTeX',
+          iconifyTag: 'file-icons:latex',
+        },
+        {
+          skillName: 'Confluence',
+          iconifyTag: 'logos:confluence',
+        },
+        {
+          skillName: 'Markdown',
+          iconifyTag: 'logos:markdown',
+        },
+      ],
+    },
+    {
+      title: 'Full Stack Developer',
+      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      skills: [
+        emoji('⚡ Write Reliable & Optimized Software'),
+        emoji('⚡ Build Web-apps'),
+        emoji('⚡ Ensure Privacy & Security'),
+        emoji('⚡ Build APIs'),
+        emoji('⚡ Database Administrator'),
+        emoji('⚡ Automate Test & Deploy'),
+      ],
+      softwareSkills: [
+        {
+          skillName: 'PHP',
+          iconifyTag: 'bxl:php',
+        },
+        {
+          skillName: 'Java',
+          iconifyTag: 'logos:java',
         },
         {
           skillName: 'JavaScript',
           iconifyTag: 'logos:javascript',
         },
         {
-          skillName: 'Reactjs',
-          iconifyTag: 'vscode-icons:file-type-reactjs',
-        },
-        {
-          skillName: 'Nextjs',
-          iconifyTag: 'vscode-icons:file-type-light-next',
-        },
-        {
           skillName: 'Python',
           iconifyTag: 'logos:python',
-        },
-        {
-          skillName: 'Django',
-          iconifyTag: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
         },
         {
           skillName: 'NPM',
@@ -94,12 +108,12 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Cloud Infra-Architecture',
+      title: 'Software Architect',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
+        emoji('⚡ Experience of working on multiple platforms'),
         emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+          '⚡ Hosting and maintaining websites along with integration of databases'
         ),
         emoji(
           '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
@@ -107,18 +121,6 @@ export const skillsSection: SkillsSectionType = {
       ],
       softwareSkills: [
         // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
-        },
         {
           skillName: 'PostgreSQL',
           iconifyTag: 'logos:postgresql',
@@ -136,36 +138,23 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: 'logos:github-actions',
         },
         {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
-        },
-        {
           skillName: 'Nginx',
           iconifyTag: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
         },
       ],
     },
     {
-      title: 'Blockchain',
+      title: 'Blockchain Developer',
       lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
         ),
         emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+          '⚡ Build Scripts for automated testing & deployment of Smart Contracts'
         ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
+        emoji('⚡ Experience of using Openzeppelin Smart Contract Standards'),
+        emoji('⚡ Develop NFT Smart Contracts using ERC-721 Token Standard'),
       ],
       softwareSkills: [
         {
@@ -188,130 +177,133 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Ganache',
           iconifyTag: 'logos:ganache-icon',
         },
+        {
+          skillName: 'IPFS',
+          iconifyTag: 'simple-icons:ipfs',
+        },
       ],
-    },
+    }
   ],
 };
 
-export const SkillBars: SkillBarsType[] = [
-  {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
-  },
-  {
-    Stack: 'Backend',
-    progressPercentage: '70',
-  },
-  {
-    Stack: 'Programming',
-    progressPercentage: '60',
-  },
-];
+export const SkillBars: SkillBarsType[] = [];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
+    schoolName: 'M.Sc. in Computer Science',
+    subHeader: '',
+    duration: '2017 - 2019',
+    grade: '110/110 Cum Laude',
+    desc: 'Details:',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Thesis about GDPR & Privacy',
+      'Paper about Advanced Semantic Queries and their Explanation',
+    ],
+  },
+  {
+    schoolName: 'B.Sc. in Computer Science',
+    subHeader: '',
+    duration: '2013 - 2016',
+    grade: '108/110',
+    desc: 'Details:',
+    descBullets: [
+      'Thesis: Development of a Game Engine specialized in Showrooms/Virtual Realities creation',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: 'Software Architect and Software Engineer',
+    company: 'Bidoo',
+    companyLogo: '/my_companies_logo/bidoo-logo.jpg',
+    date: 'May 2020 - Today',
+    desc: 'Bidoo offers a live auction platform which requires fast and efficient algorithms',
+    descBullets: [
+      'Designed and developed from scratch an E-Commerce which supports the famous Auction site',
+      'Designed and developed the whole Payments Processing Platform',
+      'Created a Business Intelligence tool to lead to successful business decisions',
+      'Developed a software for Access Control List management to handle user roles and permissions in the company intranet',
+    ],
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    role: 'Software Architect',
+    company: 'Deloitte',
+    companyLogo: '/my_companies_logo/deloitte-logo.png',
+    date: 'Dec 2019 - May 2020',
+    desc: 'Deloitte is one of the Big Four companies. I worked with their main clients: banks',
+    descBullets: [
+      'Designed the Strong Customer Authentication (SCA) implementation in order to limit frauds in online payments with credit and debit cards (systems PSD2 compliant)',
+      'Designed the integration between foreign banks and italian systems in order to support italian payments (i.e. Checks/MAV/RAV/F23 etc)',
+      'Developed a software for the ETL phase in a Fraud Reporting project to handle giant files with low resources',
+    ],
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    role: 'Software Engineer',
+    company: 'FIAT Chrysler Automobiles',
+    companyLogo: '/my_companies_logo/fca-logo.jpg',
+    date: 'Nov 2018 - Dec 2019',
+    desc: "FIAT required high security, information confidentiality and integrity. I developed a Web Application for FCA's World Class Manufacturing process",
   },
   {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    role: 'Full Stack Software Engineer',
+    company: '',
+    companyLogo: '/my_companies_logo/freelancer-logo.svg',
+    date: 'Oct 2015 - Sep 2018',
+    desc: 'Worked with 6 different companies',
+    descBullets: [
+      'Developed a software which offers services like international mobile top-up and international shipments',
+      'Designed different management softwares for company assets, human resources etc',
+      'Developed a software capable of projecting costs to determine short to long term gains, thus guiding the company in its decision making processes',
+      '...and much more! Ask me for my resume!',
+    ],
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Dynamic Forms',
+    desc: 'DynamicForms is a client library to automate progressive filtering and initialisation of dynamic fields in an easy and fast way',
+    github: 'https://github.com/simomosi/dynamic-forms',
+    link: 'https://simomosi.github.io/dynamic-forms/',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'MachineLearning MNIST',
+    desc: 'A Neural Network to recognise hand‑written digits which are stored in the MNIST database',
+    github: 'https://github.com/simomosi/MachineLearning-MNIST',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'ComputerVision Algorithms',
+    desc: 'A software which uses Computer Vision algorithms for noise reduction in photos',
+    github: 'https://github.com/simomosi/ComputerVision-Algorithms',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'Treasure Hunt',
+    desc: 'Online multiplayer treasure hunt game',
+    github: 'https://github.com/simomosi/treasure_hunt',
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-  {
-    name: 'John Smith',
-    feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
-  },
-];
+export const feedbacks: FeedbackType[] = [];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
-  description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  author: 'Simone Mosi',
+  title: 'Portfolio | simomosi',
+  description: 'A passionate Software Engineer.',
+  image: 'https://avatars.githubusercontent.com/u/37104045?v=4',
+  url: 'simomosi.github.io',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'simomosi',
+    'simomosi portfolio',
+    'Simone Mosi',
+    'Simone Mosi Portfolio',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Software Developer',
+    'Software Developer Portfolio',
+    'Software Developer CV',
   ],
 };

@@ -1,14 +1,24 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useCallback } from 'react';
 import { greetings } from '../portfolio';
 import { Button, Container, Row, Col } from 'reactstrap';
 import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
+
+import Particles from 'react-particles';
+import { Engine } from 'tsparticles-engine';
+import { loadFull } from "tsparticles";
+import {particlesOptions} from '../particlesConfig';
+
 
 const Greetings = () => {
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement!.scrollTop = 0;
   });
+
+  const particlesInit = useCallback(async (engine: Engine) => {
+    await loadFull(engine);
+}, []);
 
   return (
     <main>
@@ -24,6 +34,11 @@ const Greetings = () => {
             <span />
             <span />
             <span />
+          </div>
+          <div style={{ position: 'absolute', width: '100%', top: '0' }}>
+            <Particles
+                id="tsparticlesGreetings" init={particlesInit} options={particlesOptions}
+            />
           </div>
           <Container className="py-lg-md d-flex">
             <div className="col px-0">

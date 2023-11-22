@@ -9,7 +9,9 @@ import {
   SEODataType,
   SocialLinksType,
   GreetingsType,
+  CertificateType
 } from './types/sections';
+import { Certificate } from 'crypto';
 
 export const greetings: GreetingsType = {
   name: 'Hanzla Tauqeer',
@@ -221,7 +223,16 @@ export const educationInfo: EducationType[] = [
     ],
   },
 ];
-
+export const certificates : CertificateType[] = [
+  {
+    name:"Ethical HAcking Certificate",
+    img:"/img/icons/common/certificate.jpg"
+  },
+  {
+    name:"Certified Penetration Testing Engineer",
+    img:"/img/icons/common/certificate.jpg"
+  }
+]
 export const experience: ExperienceType[] = [
   {
     role: 'Frontend Developer',

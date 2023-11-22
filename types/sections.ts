@@ -86,3 +86,10 @@ export type FeedbackType = {
   name: string;
   feedback: string;
 };
+
+// * CERTIFICATE SECTION
+
+export type CertificateType = {
+  name: string;
+  img:string;
+}

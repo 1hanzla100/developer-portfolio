@@ -10,6 +10,7 @@ const Feedbacks = dynamic(() => import('../containers/Feedbacks'));
 const GithubProfileCard = dynamic(
   () => import('../components/GithubProfileCard')
 );
+const Certificate = dynamic(()=> import ('../containers/Certificate'))
 import { openSource, showContactUs } from '../portfolio';
 import SEO from '../components/SEO';
 import Contact from '../components/ContactUs';
@@ -28,6 +29,7 @@ export default function Home({
       <Skills />
       <Proficiency />
       <Education />
+      <Certificate/>
       <Experience />
       <Feedbacks />
       <Projects />

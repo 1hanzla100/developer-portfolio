@@ -3,7 +3,7 @@ import { certificates } from '../portfolio';
 import { Container, Row } from 'reactstrap';
 import CertificateCard from '../components/CertificateCard';
 
-const Experience = () => {
+const Certificate = () => {
   return (
     certificates && (
       <section className="section section-lg">
@@ -29,4 +29,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Certificate;

@@ -11,7 +11,7 @@ import {
   GreetingsType,
   CertificateType
 } from './types/sections';
-import { Certificate } from 'crypto';
+
 
 export const greetings: GreetingsType = {
   name: 'Hanzla Tauqeer',
@@ -226,11 +226,13 @@ export const educationInfo: EducationType[] = [
 export const certificates : CertificateType[] = [
   {
     name:"Ethical HAcking Certificate",
-    img:"/img/icons/common/certificate.jpg"
+    img:"/img/icons/common/certificate.jpg",
+    des:"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elitLorem ipsum dolor sit amet, consectetur adipdfgiscing elitLorem ipsum dolor sit amet, consectetur adipdfgiscing elit"
   },
   {
     name:"Certified Penetration Testing Engineer",
-    img:"/img/icons/common/certificate.jpg"
+    img:"/img/icons/common/certificate.jpg",
+    des:"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elitLorem ipsum dolor sit amet, consectetur adipdfgiscing elitLorem ipsum dolor sit amet, consectetur adipdfgiscing elit"
   }
 ]
 export const experience: ExperienceType[] = [

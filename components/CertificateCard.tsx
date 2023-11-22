@@ -3,7 +3,6 @@ import {
   Card,
   CardBody,
   CardTitle,
-  CardSubtitle,
   CardText,
   Col,
 } from 'reactstrap';
@@ -13,6 +12,7 @@ import { CertificateType } from '../types/sections';
 const CertificateCard = ({
   name,
   img,
+  des,
 }: CertificateType) => {
   return (
     <Col lg="6">
@@ -35,26 +35,14 @@ const CertificateCard = ({
                 height: '18rem',
                 borderRadius: '5%',
               }}
-            //   className="shadow mb-3"
-            //   alt={companyLogo}
             />
             <CardTitle tag="h4" className="mb-2">
               {name}
             </CardTitle>
-            {/* <CardSubtitle tag="h5" className="mb-2">
-              {role}
-            </CardSubtitle> */}
-            {/* <CardSubtitle>{date}</CardSubtitle> */}
-            {/* <CardText tag="div" className="description my-3 text-left">
-              {desc}
-              <ul>
-                {descBullets
-                  ? descBullets.map((desc) => {
-                      return <li key={desc}>{desc}</li>;
-                    })
-                  : null}
-              </ul>
-            </CardText> */}
+            
+            <CardText tag="div" className="description my-3 text-center">
+              {des}
+            </CardText>
           </CardBody>
         </Card>
       </Fade>

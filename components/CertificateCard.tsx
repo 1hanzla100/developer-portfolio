@@ -36,7 +36,7 @@ const CertificateCard = ({
                 borderRadius: '5%',
               }}
             />
-            <CardTitle tag="h4" className="mb-2">
+            <CardTitle tag="h4" className="mb-2 mt-4">
               {name}
             </CardTitle>
             

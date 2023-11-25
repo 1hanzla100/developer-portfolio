@@ -11,7 +11,7 @@ const Certificate = () => {
           <div className="d-flex p-4">
             <div>
               <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
-                <i className="ni ni-briefcase-24 text-info" />
+                <i className="fa fa-certificate text-info" />
               </div>
             </div>
             <div className="pl-4">

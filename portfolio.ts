@@ -225,7 +225,7 @@ export const educationInfo: EducationType[] = [
 ];
 export const certificates : CertificateType[] = [
   {
-    name:"Ethical HAcking Certificate",
+    name:"Ethical Hacking Certificate",
     img:"/img/icons/common/certificate.jpg",
     des:"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elitLorem ipsum dolor sit amet, consectetur adipdfgiscing elitLorem ipsum dolor sit amet, consectetur adipdfgiscing elit"
   },

@@ -92,5 +92,5 @@ export type FeedbackType = {
 export type CertificateType = {
   name: string;
   img:string;
-  des:string;
+  des?:string;
 }

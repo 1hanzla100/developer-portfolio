@@ -288,29 +288,29 @@ export const certificates : CertificateType[] = [
 //   },
 // ];
 
-export const projects: ProjectType[] = [
-  {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
-  },
-  {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
-  },
-  {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
-  },
-  {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
-  },
-];
+// export const projects: ProjectType[] = [
+//   {
+//     name: 'developer-portfolio',
+//     desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
+//     github: 'https://github.com/1hanzla100/developer-portfolio',
+//     link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+//   },
+//   {
+//     name: 'AtlasMart',
+//     desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
+//     github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+//   },
+//   {
+//     name: 'Technota (Forum)',
+//     desc: 'Get hands-on experience in technical skills with Technota',
+//     github: 'https://github.com/1hanzla100/django-react-forum',
+//   },
+//   {
+//     name: 'Shopaza (Ecommerce)',
+//     desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
+//     github: 'https://github.com/1hanzla100/Django-ecommerce',
+//   },
+// ];
 
 // export const feedbacks: FeedbackType[] = [
 //   {

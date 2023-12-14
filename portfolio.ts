@@ -13,6 +13,8 @@ import {
 } from './types/sections';
 
 
+
+
 export const greetings: GreetingsType = {
   name: 'Vyshnav',
   title: "Hi all, I'm Vyshnav",
@@ -25,7 +27,7 @@ export const greetings: GreetingsType = {
     libraries and frameworks including
     React and Next.js.`,
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://cyan-amara-80.tiiny.site/',
 };
 
 export const openSource = {

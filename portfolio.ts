@@ -56,6 +56,7 @@ export const skillsSection: SkillsSectionType = {
         ),
         emoji('⚡ Building responsive static websites using Next.js'),
         emoji('⚡ Building RESTful APIs in Node js & Node js REST Framework'),
+        emoji('⚡ Building Full-stack website using MERN stack'),
       ],
       softwareSkills: [
         {
@@ -90,6 +91,15 @@ export const skillsSection: SkillsSectionType = {
           skillName: 'Postman',
           iconifyTag: 'vscode-icons:file-type-postman',
         },
+        {
+          skillName: 'Tailwind css',
+          iconifyTag: 'vscode-icons:file-type-tailwind',
+        },
+        {
+          skillName: 'MongoDB',
+          iconifyTag: 'vscode-icons:file-type-mongo',
+        },
+       
 
         {
           skillName: 'Redux',
@@ -314,7 +324,7 @@ export const projects: ProjectType[] = [
 // ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {

@@ -48,7 +48,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: 'https://lottie.host/f669f613-d8a2-4fda-a4ec-b591c20419ca/2ti4SzNjTE.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'

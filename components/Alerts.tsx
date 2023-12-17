@@ -1,5 +1,5 @@
-import React from 'react';
-import { UncontrolledAlert } from 'reactstrap';
+import React from "react";
+import { UncontrolledAlert } from "reactstrap";
 
 type Props = {
   message: string;

@@ -1,6 +1,6 @@
-import React from 'react';
-import Head from 'next/head';
-import { seoData } from '../portfolio';
+import React from "react";
+import Head from "next/head";
+import { seoData } from "../portfolio";
 
 function SEO() {
   return (
@@ -9,7 +9,7 @@ function SEO() {
       <meta name="title" content={seoData.title} />
       <meta name="author" content={seoData.author} />
       <meta name="description" content={seoData.description} />
-      <meta name="keywords" content={seoData.keywords.join(', ')} />
+      <meta name="keywords" content={seoData.keywords.join(", ")} />
       <link rel="canonical" href={seoData.url} />
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />

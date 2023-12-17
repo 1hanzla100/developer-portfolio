@@ -1,4 +1,4 @@
-import emoji from 'react-easy-emoji';
+import emoji from "react-easy-emoji";
 import {
   EducationType,
   ExperienceType,
@@ -9,184 +9,79 @@ import {
   SEODataType,
   SocialLinksType,
   GreetingsType,
-} from './types/sections';
+} from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
+  name: "Hanzla Tauqeer",
   title: "Hi all, I'm Hanzla",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
-  resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+  resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: "1hanzla100",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  email: "mailto:hanzla.tauqeer123@gmail.com",
+  linkedin: "https://www.linkedin.com/in/1hanzla100/",
+  github: "https://github.com/1hanzla100",
+  instagram: "https://www.instagram.com/__hanzla100",
+  // facebook: 'https://www.facebook.com/1hanzla100',
+  // twitter: 'https://twitter.com/1hanzla100',
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: "What I do",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
-      title: 'Full Stack Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      title: "Full Stack Development",
+      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
-        ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
+        emoji("⚡ Building responsive static websites using Next.js"),
+        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
       ],
       softwareSkills: [
         {
-          skillName: 'HTML-5',
-          iconifyTag: 'vscode-icons:file-type-html',
+          skillName: "Python",
+          iconifyTag: "logos:python",
         },
         {
-          skillName: 'CSS-3',
-          iconifyTag: 'vscode-icons:file-type-css',
+          skillName: "Django",
+          iconifyTag: "vscode-icons:file-type-django",
         },
         {
-          skillName: 'JavaScript',
-          iconifyTag: 'logos:javascript',
+          skillName: "JavaScript",
+          iconifyTag: "logos:javascript",
         },
         {
-          skillName: 'Reactjs',
-          iconifyTag: 'vscode-icons:file-type-reactjs',
+          skillName: "Reactjs",
+          iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
-          skillName: 'Nextjs',
-          iconifyTag: 'vscode-icons:file-type-light-next',
+          skillName: "Nextjs",
+          iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
-          skillName: 'Python',
-          iconifyTag: 'logos:python',
+          skillName: "AWS",
+          iconifyTag: "logos:aws",
         },
         {
-          skillName: 'Django',
-          iconifyTag: 'vscode-icons:file-type-django',
-        },
-
-        {
-          skillName: 'Redux',
-          iconifyTag: 'logos:redux',
+          skillName: "Heroku",
+          iconifyTag: "logos:heroku-icon",
         },
         {
-          skillName: 'NPM',
-          iconifyTag: 'logos:npm-icon',
+          skillName: "Github",
+          iconifyTag: "akar-icons:github-fill",
         },
         {
-          skillName: 'Yarn',
-          iconifyTag: 'logos:yarn',
-        },
-      ],
-    },
-    {
-      title: 'Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
-        emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
-        ),
-        emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
-        ),
-      ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          iconifyTag: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          iconifyTag: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          iconifyTag: 'logos:heroku-icon',
-        },
-        {
-          skillName: 'PostgreSQL',
-          iconifyTag: 'logos:postgresql',
-        },
-        {
-          skillName: 'Github',
-          iconifyTag: 'akar-icons:github-fill',
-        },
-        {
-          skillName: 'Docker',
-          iconifyTag: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Github Actions',
-          iconifyTag: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          iconifyTag: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          iconifyTag: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          iconifyTag: 'logos:sentry-icon',
-        },
-      ],
-    },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          iconifyTag: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          iconifyTag: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          iconifyTag: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          iconifyTag: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          iconifyTag: 'logos:ganache-icon',
+          skillName: "Docker",
+          iconifyTag: "logos:docker-icon",
         },
       ],
     },
@@ -195,123 +90,124 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: "Frontend/Design", //Insert stack or technology you have experience in
+    progressPercentage: "85", //Insert relative proficiency in percentage
   },
   {
-    Stack: 'Backend',
-    progressPercentage: '70',
+    Stack: "Backend",
+    progressPercentage: "90",
   },
   {
-    Stack: 'Programming',
-    progressPercentage: '60',
+    Stack: "Programming",
+    progressPercentage: "95",
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
-    grade: 'Grade A',
-    descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    ],
+    schoolName: "University of Central Punjab",
+    subHeader: "Bachelor of Science in Computer Science",
+    duration: "September 2017 - April 2020",
+    desc: "",
+    grade: "Grade A",
+    descBullets: [], // Array of Strings
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
+    role: "Django Developer",
+    company: "Meganos Software",
+    companyLogo: "/img/icons/common/meganos.png",
+    date: "Aug 2022 - Present",
+    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
   },
   {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
+    role: "Full Stack Developer",
+    company: "Duseca Software",
+    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
+    date: "Jan 2022 - Sept 2023",
+    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    role: "Full Stack Developer",
+    company: "ZRTechnologies",
+    companyLogo: "/img/icons/common/zrtech.jpeg",
+    date: "Aug 2022 - Jun 2023",
+    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
   },
   {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    role: "Backend Developer",
+    company: "Bleed-AI",
+    companyLogo: "/img/icons/common/bleedAI.jpg",
+    date: "Sept 2021 - Oct 2021",
+    desc: "As a Django web developer, I orchestrated a website merging BleedAI's computer vision model with YouTube URLs. Leveraging Django Channels' WebSockets, threading, and jQuery, I enabled real-time AI processing. The culmination? A seamlessly deployed site on Heroku, bridging complex AI and user-friendly UI for an enriched web experience.",
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: "developer-portfolio",
+    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
+    github: "https://github.com/1hanzla100/developer-portfolio",
+    link: "https://developer-portfolio-1hanzla100.vercel.app/",
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: "Giebo",
+    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
+    link: "https://gibeo.io/",
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: "O Mejor Oferta",
+    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
+    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: "Hooligan Culture",
+    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
+    link: "https://hooliganculture.com/",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: 'John Smith',
+    name: "Syed Jamal",
+    role: "COO at Meganos Software",
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
   },
   {
-    name: 'John Smith',
+    name: "Wajahat Malek",
+    role: "CEO at Duseca Software",
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
+  },
+  {
+    name: "Zaid Zaffar",
+    role: "CEO at ZR Technologies",
+    feedback:
+      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
   },
 ];
 
-// option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
-
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
-  description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  title: "Hanzla Tauqeer",
+  description: greetings.description,
+  author: "Hanzla Tauqeer",
+  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+  url: "https://developer-portfolio-1hanzla100.vercel.app",
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
-    'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    "Hanzla",
+    "Hanzla Tauqeer",
+    "@1hanzla100",
+    "1hanzla100",
+    "Portfolio",
+    "Hanzla Portfolio ",
+    "Hanzla Tauqeer Portfolio",
   ],
 };

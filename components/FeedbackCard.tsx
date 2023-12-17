@@ -1,22 +1,25 @@
-import React from 'react';
-import { Card, CardBody } from 'reactstrap';
-import Fade from 'react-reveal/Fade';
-import { FeedbackType } from '../types/sections';
+import React from "react";
+import { Card, CardBody, CardSubtitle, CardTitle } from "reactstrap";
+import Fade from "react-reveal/Fade";
+import { FeedbackType } from "../types/sections";
 
-const FeedbackCard = ({ name, feedback }: FeedbackType) => {
+const FeedbackCard = ({ name, role, feedback }: FeedbackType) => {
   return (
-    <Fade bottom duration={2000}>
-      <Card className="card-lift--hover shadow mt-4">
-        <CardBody>
-          <div className="d-flex px-3">
-            <div className="pl-4">
-              <h5 className="text-info">{name}</h5>
-              <p className="description mt-3">{feedback}</p>
-            </div>
+    <Card className="shadow-lg--hover shadow my-4 h-100">
+      <CardBody>
+        <div className="d-flex px-3">
+          <div className="pl-4">
+            <CardTitle tag="h4" className="mb-2">
+              {name}
+            </CardTitle>
+            <CardSubtitle tag="h6" className="mb-2">
+              {role}
+            </CardSubtitle>
+            <p className="description mt-2">{feedback}</p>
           </div>
-        </CardBody>
-      </Card>
-    </Fade>
+        </div>
+      </CardBody>
+    </Card>
   );
 };
 

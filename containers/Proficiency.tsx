@@ -1,8 +1,8 @@
-import React from 'react';
-import { SkillBars } from '../portfolio';
-import { Container, Row, Progress, Col } from 'reactstrap';
-import Fade from 'react-reveal/Fade';
-import GreetingLottie from '../components/DisplayLottie';
+import React from "react";
+import { SkillBars } from "../portfolio";
+import { Container, Row, Progress, Col } from "reactstrap";
+import Fade from "react-reveal/Fade";
+import GreetingLottie from "../components/DisplayLottie";
 
 const Proficiency = () => {
   return (
@@ -12,7 +12,7 @@ const Proficiency = () => {
           <Row>
             <Col lg="6">
               <h1 className="h1">Proficiency</h1>
-              {SkillBars.map((skill) => {
+              {SkillBars.map(skill => {
                 return (
                   <div className="progress-info" key={skill.Stack}>
                     <div className="progress-label">

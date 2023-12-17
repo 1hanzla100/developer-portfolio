@@ -145,7 +145,7 @@ export const experience: ExperienceType[] = [
     company: "Bleed-AI",
     companyLogo: "/img/icons/common/bleedAI.jpg",
     date: "Sept 2021 - Oct 2021",
-    desc: "As a Django web developer, I orchestrated a website merging BleedAI's computer vision model with YouTube URLs. Leveraging Django Channels' WebSockets, threading, and jQuery, I enabled real-time AI processing. The culmination? A seamlessly deployed site on Heroku, bridging complex AI and user-friendly UI for an enriched web experience.",
+    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
   },
 ];
 

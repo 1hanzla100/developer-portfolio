@@ -13,7 +13,7 @@
 
 Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
-But if you want to **contribute** and make this much better for other developer have a look at
+But if you want to **contribute** and make this much better for other developers have a look at
 [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
 
 If you created something awesome and want to contribute then feel free to open an
@@ -46,7 +46,7 @@ git@2.17.1 or higher
 
 ## How To Use
 
-1. Fork this repoistory and clone it to your local machine.
+1. Fork this repository and clone it to your local machine.
 
 ```bash
 $ git clone https://github.com/<your-username>/developer-portfolio.git
@@ -101,7 +101,7 @@ argument. This would help in keeping emojis compatible across different browsers
 
 ## Icons
 
-Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
+Iconify Icons are used in the skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
 
 ## For the Future
 
@@ -112,6 +112,13 @@ If you can help us with these. Please don't hesitate to open a
 
 - Add More Sections
 
+## Show your support
+
+Give a ⭐️ if this project helped you! You can buy me a book if you'd like to support my work further.
+<div>
+  <a href="https://www.buymeacoffee.com/1hanzla100"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=1hanzla100&button_colour=FFDD00&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+ </div>
+
 ## Author
 
 👤 **Hanzla Tauqeer**
@@ -119,7 +126,3 @@ If you can help us with these. Please don't hesitate to open a
 - Website: https://hanzla.netlify.app
 - Github: [@1hanzla100](https://github.com/1hanzla100)
 - LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
